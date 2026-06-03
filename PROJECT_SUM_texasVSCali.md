@@ -29,31 +29,38 @@ real-vs-nominal, and per-capita-vs-absolute distinctions.
 - **Source registry** (`config/sources.yaml`): 9 federal/public data sources
   catalogued with endpoints, dataset codes, auth requirements, and query params
   (BEA, BLS, Census, IRS SOI, EIA, SEC EDGAR, USPTO PatentsView, FHFA, Zillow).
-- **Four production collectors** (`src/collect/`), each isolating one source and
-  writing a tidy, fully-provenanced dataset:
-  - **`bea.py`** — state real & nominal GDP (BEA Regional **API**). Resolves table
-    line codes at runtime from the API's own metadata (`GetParameterValuesFiltered`)
-    instead of hardcoding fragile magic numbers — which caught a real trap (nominal
-    GDP is line code 3, not the intuitive 2, which is a quantity index). Real/nominal
-    labels and the chained-dollar base year are read from the response so they
-    can't drift.
-  - **`census_pep.py`** — population + components of change (net / domestic /
-    international migration) from Census PEP **flat files**. Diagnosed that the
-    Census API is frozen pre-2022, then pivoted to the official CSV vintages and
-    harmonized two of them across the 2020-census re-basing boundary.
-  - **`irs_soi.py`** — state-to-state migration of people *and* adjusted gross
-    income ("follow the money"), including the CA↔TX bilateral flow. Handles a real
-    data trap where one aggregate code is reused for two different totals
-    (disambiguated by label).
-  - **`edgar.py`** — SEC EDGAR: verifies corporate HQ relocations against primary
-    filing data (submissions API) and aggregates ~45 quarterly **Form D** datasets
-    (zip/TSV) into private-capital activity by state, with retry/backoff and
-    defensive parsing of cross-vintage schema changes.
+- **Eight production collectors** (`src/collect/`), each isolating one source and
+  writing a tidy, fully-provenanced dataset. The thesis side ("what moves" → Texas):
+  - **`bea.py`** — state real & nominal GDP (BEA Regional **API**); resolves table
+    line codes at runtime from the API's metadata (`GetParameterValuesFiltered`)
+    rather than hardcoding magic numbers — caught a real trap (nominal GDP is line
+    code 3, not 2). Units/base-year read from the response so labels can't drift.
+  - **`census_pep.py`** — population + components of change from Census PEP **flat
+    files** (diagnosed the API is frozen pre-2022; harmonized two vintages across
+    the 2020-census re-basing boundary).
+  - **`irs_soi.py`** — interstate migration of people *and* adjusted gross income
+    ("follow the money") incl. the CA↔TX bilateral flow; disambiguated an aggregate
+    code reused for two different totals.
+  - **`edgar.py`** — SEC EDGAR: HQ-relocation verification (submissions API) +
+    ~45 quarterly **Form D** datasets (zip/TSV) aggregated to private-capital by
+    state, with retry/backoff.
+  And the counter-case side ("at what cost", under a strict no-one-sided-result rule):
+  - **`census_acs.py`** — ACS housing & property-tax reality (effective tax rate).
+  - **`zillow.py`** — metro home-value index (ZHVI), CBSA-keyed, with attribution.
+  - **`eia.py`** — electricity price & demand (v2 API) + grid reliability/SAIDI
+    parsed and customer-weighted from EIA-861 **spreadsheets** (Excel).
+  - **`bls.py`** — QCEW average pay & employment by industry (the wage-quality gap).
   Cross-cutting engineering: an **11-column tidy-data contract** with provenance on
   every row; **no-fabrication guarantees** (missing/suppressed values dropped, never
   imputed; a missing API key triggers a clean stub with remediation steps); and
-  **validation** (e.g. an internal-consistency check that real = nominal in the GDP
-  base year, plus sanity checks against published figures).
+  **validation** against published figures + internal-consistency checks.
+- **Cleaning & analysis layer** (`src/clean/`, `src/analyze/`): canonical geography
+  harmonization across all sources; a **US GDP price deflator** for real-dollar
+  conversion; metric construction (real GDP per capita, growth, net migration, net
+  AGI flows); and **two scorecards** — the "split decision" and a counter-case
+  "at what cost" synthesis.
+- **Visualization** (`src/analyze/figures.py`): 11 reproducible, source-captioned
+  matplotlib charts, including a normalized "tug-of-war" of who wins each dimension.
 - **Reproducibility**: Python virtual environment, pinned dependencies locked to
   the actually-resolved versions, secrets managed via `.env` (gitignored) with a
   committed `.env.example` template.
@@ -84,11 +91,16 @@ real-vs-nominal, and per-capita-vs-absolute distinctions.
   adjustment, deflators, base years), flow vs stock, per-capita vs absolute,
   multi-year comparison hygiene.
 - **Analytical rigor & communication**: every figure cited to a primary source
-  and year; deliberate inclusion of the counter-case for any claim.
+  and year; deliberate inclusion of the counter-case for any claim (a one-sided
+  result is treated as a bug).
+- **Data visualization**: clear, consistently-styled, source-captioned CA-vs-TX
+  charts in matplotlib, including a normalized "split-decision" scorecard.
+- **Heterogeneous-source integration**: REST APIs, CSV/flat-file vintages, zipped
+  TSV datasets, and Excel spreadsheets — reconciled into one harmonized dataset.
 
 ## Tools, libraries & data sources
 
-- **Libraries**: pandas, requests, python-dotenv, PyYAML
+- **Libraries**: pandas, requests, python-dotenv, PyYAML, matplotlib, openpyxl
 - **Tooling**: Git/GitHub, virtualenv/pip, VS Code, CLI
 - **Data sources**: U.S. Bureau of Economic Analysis (BEA Regional), Bureau of
   Labor Statistics (BLS), U.S. Census Bureau, IRS SOI Migration, EIA, SEC EDGAR,
@@ -108,10 +120,10 @@ real-vs-nominal, and per-capita-vs-absolute distinctions.
     adjustment, flow vs stock), not just plumbing.
   - Self-directed: defined the problem, designed the architecture, and shipped a
     working, validated component end-to-end.
-- **Status note for honest framing**: an active, in-progress portfolio project —
-  the architecture and four data collectors (BEA GDP, Census population/migration,
-  IRS income migration, SEC EDGAR HQ + Form D) are complete and validated; the
-  cleaning/harmonization and comparative-analysis layers are planned/ongoing.
+- **Status note for honest framing**: an active portfolio project. Eight validated
+  data collectors, the cleaning/harmonization + real-dollar-deflator layer, the
+  comparative analysis (split-decision and counter-case scorecards), and 11 charts
+  are complete; remaining work is narrative/scripting and optional metro-level depth.
 
 ## Sample resume bullets (ready to tailor)
 
@@ -127,7 +139,10 @@ real-vs-nominal, and per-capita-vs-absolute distinctions.
 - Applied economic data rigor — real vs nominal inflation adjustment, flow vs
   stock, and per-capita vs absolute distinctions — to keep multi-year, cross-
   state comparisons valid.
-- Integrated four heterogeneous government sources (REST APIs, CSV vintages, and
-  zipped TSV datasets), reconciling source-specific quirks — frozen API versions,
-  reused aggregate codes, and cross-vintage schema/format changes — into one
-  consistent, validated dataset.
+- Integrated eight heterogeneous government/public sources (REST APIs, CSV
+  vintages, zipped TSV datasets, and Excel spreadsheets), reconciling source-specific
+  quirks — frozen API versions, reused aggregate codes, cross-vintage schema/format
+  changes — into one harmonized, validated dataset.
+- Built the analysis and visualization layer: real-dollar deflation, per-capita and
+  flow metrics, and 11 source-cited charts, plus a balanced "split-decision" vs
+  "at what cost" scorecard that pairs every advantage with its documented trade-off.
