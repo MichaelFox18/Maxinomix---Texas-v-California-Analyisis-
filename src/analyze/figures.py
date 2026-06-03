@@ -18,6 +18,7 @@ import numpy as np
 import pandas as pd
 
 from src.analyze import capital as cap_mod
+from src.analyze import counter_case as cc_mod
 from src.analyze import gdp as gdp_mod
 from src.analyze import migration as mig_mod
 from src.analyze import scorecard as sc_mod
@@ -159,6 +160,65 @@ def fig_scorecard(sc):
           "Sources: BEA, Census PEP, IRS SOI, SEC EDGAR. Bars = normalized (CA-TX)/(|CA|+|TX|).")
 
 
+# =============================================================== counter-cases
+def fig_property_tax(ht):
+    d = ht.dropna(subset=["eff_prop_tax_rate_ca_pct"])
+    fig, ax = plt.subplots(figsize=(9, 5))
+    ax.plot(d.index, d.eff_prop_tax_rate_ca_pct, color=CA, marker="o", label="California")
+    ax.plot(d.index, d.eff_prop_tax_rate_tx_pct, color=TX, marker="o", label="Texas")
+    ax.set_title("Effective Property-Tax Rate: Texas ~2x California")
+    ax.set_xlabel("Year"); ax.set_ylabel("Median property tax / median home value (%)")
+    ax.set_ylim(0, None); ax.legend()
+    _save(fig, "08_effective_property_tax.png",
+          "Source: Census ACS 1-year (median real-estate taxes / median home value)")
+
+
+def fig_austin_boombust():
+    z = hz.load_processed("zillow_zhvi_metro_tx_ca.csv")
+    piv = z[z.metric == "zhvi"].pivot_table(index="year", columns="geo_name", values="value")
+    metros = {"Austin, TX": TX, "Dallas-Fort Worth, TX": "#ff9896",
+              "Houston, TX": "#e377c2", "San Francisco, CA": CA}
+    base = piv.loc[2019]
+    fig, ax = plt.subplots(figsize=(9, 5))
+    for m, color in metros.items():
+        if m in piv.columns:
+            ax.plot(piv.index, piv[m] / base[m] * 100, marker="o", label=m, color=color)
+    ax.axhline(100, color="black", lw=0.6, ls="--")
+    ax.set_title("Austin's Boom and Bust: Home Values Indexed to 2019 = 100")
+    ax.set_xlabel("Year"); ax.set_ylabel("ZHVI index (2019 = 100)")
+    ax.legend(fontsize=8)
+    _save(fig, "09_austin_boom_bust.png",
+          "Source: Zillow Research ZHVI (year-end), indexed to 2019. Used with attribution.")
+
+
+def fig_grid_saidi(grid):
+    d = grid.dropna(subset=["saidi_wmed_ca_min"])
+    fig, ax = plt.subplots(figsize=(9, 5))
+    yrs = d.index.values.astype(float); w = 0.38
+    ax.bar(yrs - w / 2, d.saidi_wmed_ca_min, w, color=CA, label="California")
+    ax.bar(yrs + w / 2, d.saidi_wmed_tx_min, w, color=TX, label="Texas")
+    ax.set_title("Grid Reliability: Outage Minutes per Customer (incl. major events)")
+    ax.set_xlabel("Year"); ax.set_ylabel("SAIDI with major event days (minutes/yr)")
+    ax.set_xticks(yrs); ax.legend()
+    _save(fig, "10_grid_saidi.png",
+          "Source: EIA-861, customer-weighted. 2021 spike = Winter Storm Uri. "
+          "(Excluding major events, TX is on par or better.)")
+
+
+def fig_wage_gap(wages):
+    d = wages.dropna(subset=["avg_pay_info_ca"])
+    fig, ax = plt.subplots(figsize=(9, 5))
+    ax.plot(d.index, d.avg_pay_info_ca / 1e3, color=CA, marker="o", label="California — Information")
+    ax.plot(d.index, d.avg_pay_info_tx / 1e3, color=TX, marker="o", label="Texas — Information")
+    ax.plot(d.index, d.avg_pay_total_ca / 1e3, color=CA, marker="s", ls="--", alpha=0.5, label="California — all industries")
+    ax.plot(d.index, d.avg_pay_total_tx / 1e3, color=TX, marker="s", ls="--", alpha=0.5, label="Texas — all industries")
+    ax.set_title("California's Wage Moat: Information-Sector Average Pay (widening)")
+    ax.set_xlabel("Year"); ax.set_ylabel("Average annual pay ($ thousands, nominal)")
+    ax.legend(fontsize=8)
+    _save(fig, "11_wage_gap_information.png",
+          "Source: BLS QCEW (annual average pay). Nominal $.")
+
+
 def main() -> int:
     g, m, c, sc = gdp_mod.build(), mig_mod.build(), cap_mod.build(), sc_mod.build()
     print("Rendering figures -> outputs/figures/")
@@ -169,6 +229,11 @@ def main() -> int:
     fig_bilateral(m)
     fig_formd(c)
     fig_scorecard(sc)
+    # counter-cases
+    fig_property_tax(cc_mod.build_housing_tax())
+    fig_austin_boombust()
+    fig_grid_saidi(cc_mod.build_grid())
+    fig_wage_gap(cc_mod.build_wages())
     print("done.")
     return 0
 

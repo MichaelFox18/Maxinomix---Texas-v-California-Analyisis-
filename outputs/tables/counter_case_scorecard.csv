@@ -1,0 +1,9 @@
+theme,dimension,tx,ca,unit,year,takeaway
+Housing,Effective property-tax rate,1.31,0.71,% of home value,2024,TX taxes property ~1.9x CA's rate
+Housing,Property tax as % of income,5.15,5.36,% of income,2024,burden essentially equal
+Housing,Home value vs 2022 peak (Austin vs SF),-25.7,-9.6,% from peak,2026,Austin corrected hardest of 8 metros
+Grid,"Outage minutes, with major events (2021 Uri)",1175.3,325.2,min/customer,2021,TX ~3.6x CA in catastrophe
+Grid,"Outage minutes, normal (no major events)",124.7,152.1,min/customer,2023,TX on par / better day-to-day
+Grid,Electricity price,10.18,27.63,cents/kWh,2025,TX much cheaper (the draw)
+Wages,All-industry average pay,77995.0,96946.0,$/year,2025,CA pays ~1.24x
+Wages,Information-sector average pay,138398.0,329448.0,$/year,2025,CA pays ~2.4x; gap widening (AI era)
