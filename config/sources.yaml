@@ -55,9 +55,22 @@ sources:
     name: BLS
     base_url: https://api.bls.gov/publicAPI/v2/
     signup_url: https://data.bls.gov/registrationEngine/
-    api_key_env: BLS_API_KEY
+    api_key_env: BLS_API_KEY   # for future CES/LAUS/OEWS series; QCEW open-data needs no key
     gives: "QCEW employment & wages, CES/SAE jobs, LAUS unemployment, OEWS wages"
-    status: stub
+    status: built
+    qcew:
+      # QCEW Open Data: avg annual pay & employment by state & industry (no key).
+      # Job-quality counter-case: does CA keep the high-wage knowledge economy?
+      area_url_template: https://data.bls.gov/cew/data/api/{year}/a/area/{area}.csv
+      area_fips: ["06000", "48000"]   # California, Texas (matches BEA GeoFips style)
+      start_year: 2015
+      measures:   # metric_name: {own_code, industry_code, agglvl_code, field}
+        avg_pay_all_industries:    { own_code: "0", industry_code: "10",    agglvl_code: "50", field: avg_annual_pay }
+        avg_pay_information:       { own_code: "5", industry_code: "51",    agglvl_code: "54", field: avg_annual_pay }
+        avg_pay_prof_sci_tech:     { own_code: "5", industry_code: "54",    agglvl_code: "54", field: avg_annual_pay }
+        avg_pay_manufacturing:     { own_code: "5", industry_code: "31-33", agglvl_code: "54", field: avg_annual_pay }
+        employment_all_industries: { own_code: "0", industry_code: "10",    agglvl_code: "50", field: annual_avg_emplvl }
+        employment_information:    { own_code: "5", industry_code: "51",    agglvl_code: "54", field: annual_avg_emplvl }
 
   census:
     name: Census

@@ -1,0 +1,133 @@
+geo_id,geo_name,geo_level,year,metric,value,unit,real_or_nominal,source,source_url,retrieved_at
+06000,California,state,2015,avg_pay_all_industries,61698.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2015/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2016,avg_pay_all_industries,62964.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2016/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2017,avg_pay_all_industries,65857.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2017/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2018,avg_pay_all_industries,68478.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2018/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2019,avg_pay_all_industries,71351.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2019/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2020,avg_pay_all_industries,79480.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2020/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2021,avg_pay_all_industries,85741.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2021/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2022,avg_pay_all_industries,84436.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2022/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2023,avg_pay_all_industries,87490.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2023/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2024,avg_pay_all_industries,92145.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2024/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2025,avg_pay_all_industries,96946.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2025/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2015,avg_pay_information,145627.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2015/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2016,avg_pay_information,147264.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2016/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2017,avg_pay_information,172309.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2017/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2018,avg_pay_information,188173.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2018/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2019,avg_pay_information,191278.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2019/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2020,avg_pay_information,217892.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2020/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2021,avg_pay_information,251226.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2021/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2022,avg_pay_information,212712.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2022/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2023,avg_pay_information,241056.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2023/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2024,avg_pay_information,287317.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2024/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2025,avg_pay_information,329448.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2025/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2015,avg_pay_manufacturing,83868.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2015/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2016,avg_pay_manufacturing,87160.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2016/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2017,avg_pay_manufacturing,92246.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2017/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2018,avg_pay_manufacturing,95627.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2018/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2019,avg_pay_manufacturing,98222.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2019/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2020,avg_pay_manufacturing,109888.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2020/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2021,avg_pay_manufacturing,119242.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2021/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2022,avg_pay_manufacturing,117801.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2022/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2023,avg_pay_manufacturing,123547.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2023/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2024,avg_pay_manufacturing,122468.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2024/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2025,avg_pay_manufacturing,132297.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2025/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2015,avg_pay_prof_sci_tech,111771.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2015/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2016,avg_pay_prof_sci_tech,111856.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2016/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2017,avg_pay_prof_sci_tech,116802.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2017/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2018,avg_pay_prof_sci_tech,122460.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2018/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2019,avg_pay_prof_sci_tech,127874.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2019/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2020,avg_pay_prof_sci_tech,141647.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2020/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2021,avg_pay_prof_sci_tech,154568.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2021/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2022,avg_pay_prof_sci_tech,149092.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2022/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2023,avg_pay_prof_sci_tech,154124.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2023/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2024,avg_pay_prof_sci_tech,167284.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2024/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2025,avg_pay_prof_sci_tech,183387.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2025/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2015,employment_all_industries,16295204.0,jobs,n/a,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2015/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2016,employment_all_industries,16718647.0,jobs,n/a,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2016/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2017,employment_all_industries,17019702.0,jobs,n/a,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2017/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2018,employment_all_industries,17355855.0,jobs,n/a,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2018/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2019,employment_all_industries,17631489.0,jobs,n/a,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2019/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2020,employment_all_industries,16378059.0,jobs,n/a,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2020/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2021,employment_all_industries,16974870.0,jobs,n/a,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2021/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2022,employment_all_industries,17903539.0,jobs,n/a,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2022/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2023,employment_all_industries,18002893.0,jobs,n/a,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2023/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2024,employment_all_industries,18183696.0,jobs,n/a,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2024/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2025,employment_all_industries,18216254.0,jobs,n/a,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2025/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2015,employment_information,482179.0,jobs,n/a,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2015/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2016,employment_information,517212.0,jobs,n/a,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2016/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2017,employment_information,513029.0,jobs,n/a,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2017/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2018,employment_information,525771.0,jobs,n/a,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2018/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2019,employment_information,550084.0,jobs,n/a,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2019/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2020,employment_information,527549.0,jobs,n/a,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2020/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2021,employment_information,560370.0,jobs,n/a,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2021/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2022,employment_information,605857.0,jobs,n/a,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2022/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2023,employment_information,558978.0,jobs,n/a,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2023/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2024,employment_information,537780.0,jobs,n/a,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2024/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+06000,California,state,2025,employment_information,524441.0,jobs,n/a,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2025/a/area/06000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2015,avg_pay_all_industries,54281.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2015/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2016,avg_pay_all_industries,54333.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2016/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2017,avg_pay_all_industries,55795.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2017/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2018,avg_pay_all_industries,57747.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2018/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2019,avg_pay_all_industries,59794.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2019/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2020,avg_pay_all_industries,62872.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2020/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2021,avg_pay_all_industries,65970.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2021/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2022,avg_pay_all_industries,69614.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2022/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2023,avg_pay_all_industries,72318.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2023/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2024,avg_pay_all_industries,75394.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2024/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2025,avg_pay_all_industries,77995.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2025/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2015,avg_pay_information,79820.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2015/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2016,avg_pay_information,81268.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2016/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2017,avg_pay_information,84394.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2017/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2018,avg_pay_information,87085.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2018/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2019,avg_pay_information,90857.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2019/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2020,avg_pay_information,102835.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2020/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2021,avg_pay_information,112228.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2021/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2022,avg_pay_information,116366.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2022/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2023,avg_pay_information,123137.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2023/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2024,avg_pay_information,132041.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2024/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2025,avg_pay_information,138398.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2025/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2015,avg_pay_manufacturing,72829.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2015/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2016,avg_pay_manufacturing,73134.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2016/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2017,avg_pay_manufacturing,75813.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2017/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2018,avg_pay_manufacturing,77648.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2018/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2019,avg_pay_manufacturing,79766.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2019/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2020,avg_pay_manufacturing,81206.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2020/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2021,avg_pay_manufacturing,83513.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2021/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2022,avg_pay_manufacturing,87406.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2022/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2023,avg_pay_manufacturing,91188.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2023/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2024,avg_pay_manufacturing,94441.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2024/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2025,avg_pay_manufacturing,97510.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2025/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2015,avg_pay_prof_sci_tech,88529.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2015/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2016,avg_pay_prof_sci_tech,89458.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2016/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2017,avg_pay_prof_sci_tech,91220.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2017/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2018,avg_pay_prof_sci_tech,94564.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2018/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2019,avg_pay_prof_sci_tech,97125.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2019/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2020,avg_pay_prof_sci_tech,100630.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2020/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2021,avg_pay_prof_sci_tech,106988.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2021/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2022,avg_pay_prof_sci_tech,111759.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2022/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2023,avg_pay_prof_sci_tech,115794.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2023/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2024,avg_pay_prof_sci_tech,122527.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2024/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2025,avg_pay_prof_sci_tech,127897.0,USD per year,nominal,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2025/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2015,employment_all_industries,11655919.0,jobs,n/a,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2015/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2016,employment_all_industries,11805698.0,jobs,n/a,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2016/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2017,employment_all_industries,12014802.0,jobs,n/a,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2017/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2018,employment_all_industries,12302358.0,jobs,n/a,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2018/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2019,employment_all_industries,12590406.0,jobs,n/a,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2019/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2020,employment_all_industries,12070210.0,jobs,n/a,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2020/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2021,employment_all_industries,12526069.0,jobs,n/a,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2021/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2022,employment_all_industries,13249119.0,jobs,n/a,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2022/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2023,employment_all_industries,13701879.0,jobs,n/a,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2023/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2024,employment_all_industries,13936364.0,jobs,n/a,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2024/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2025,employment_all_industries,14102892.0,jobs,n/a,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2025/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2015,employment_information,200735.0,jobs,n/a,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2015/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2016,employment_information,202077.0,jobs,n/a,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2016/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2017,employment_information,201873.0,jobs,n/a,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2017/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2018,employment_information,203822.0,jobs,n/a,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2018/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2019,employment_information,208591.0,jobs,n/a,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2019/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2020,employment_information,198521.0,jobs,n/a,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2020/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2021,employment_information,207472.0,jobs,n/a,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2021/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2022,employment_information,229747.0,jobs,n/a,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2022/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2023,employment_information,234028.0,jobs,n/a,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2023/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2024,employment_information,225306.0,jobs,n/a,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2024/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
+48000,Texas,state,2025,employment_information,223703.0,jobs,n/a,BLS QCEW (annual averages),https://data.bls.gov/cew/data/api/2025/a/area/48000.csv,2026-06-03T18:24:37.336096+00:00
