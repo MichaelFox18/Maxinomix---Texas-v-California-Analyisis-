@@ -43,6 +43,11 @@ def _save(fig, name: str, source: str):
     print(f"  {path.relative_to(hz.ROOT)}")
 
 
+def _fmt(v: float) -> str:
+    """Human-readable: thousands separators for big numbers, compact for small."""
+    return f"{v:,.0f}" if abs(v) >= 1000 else f"{v:g}"
+
+
 def fig_gdp_levels(g):
     fig, ax = plt.subplots(figsize=(9, 5))
     ax.plot(g.index, g.real_gdp_ca_musd / 1e6, color=CA, marker="o", label="California")
@@ -77,31 +82,32 @@ def fig_net_domestic_migration(m):
 
 
 def fig_net_interstate_agi(m):
-    d = m.dropna(subset=["irs_net_interstate_agi_ca_kusd"])
+    d = m.dropna(subset=["irs_net_interstate_agi_ca_real_kusd"])
     fig, ax = plt.subplots(figsize=(9, 5))
     yrs = d.index.values.astype(float); w = 0.4
-    ax.bar(yrs - w / 2, d.irs_net_interstate_agi_ca_kusd / 1e6, w, color=CA, label="California")
-    ax.bar(yrs + w / 2, d.irs_net_interstate_agi_tx_kusd / 1e6, w, color=TX, label="Texas")
+    ax.bar(yrs - w / 2, d.irs_net_interstate_agi_ca_real_kusd / 1e6, w, color=CA, label="California")
+    ax.bar(yrs + w / 2, d.irs_net_interstate_agi_tx_real_kusd / 1e6, w, color=TX, label="Texas")
     ax.axhline(0, color="black", lw=0.8)
     ax.set_title("Net Interstate Migration of Income (AGI): California vs Texas")
-    ax.set_xlabel("Year"); ax.set_ylabel("Net AGI flow ($ billions, nominal)")
+    ax.set_xlabel("Year"); ax.set_ylabel("Net AGI flow ($ billions, real 2017)")
     ax.legend()
     _save(fig, "04_net_interstate_agi.png",
-          "Source: IRS SOI Migration. AGI is nominal (current $); flows peaked 2021.")
+          "Source: IRS SOI Migration; deflated to real 2017 $ (US GDP deflator). Flows peaked 2021.")
 
 
 def fig_bilateral(m):
-    d = m.dropna(subset=["ca_to_tx_agi_kusd"])
+    d = m.dropna(subset=["ca_to_tx_agi_real_kusd"])
     fig, ax = plt.subplots(figsize=(9, 5))
     yrs = d.index.values.astype(float); w = 0.4
-    ax.bar(yrs - w / 2, d.ca_to_tx_agi_kusd / 1e6, w, color=TX, label="CA → TX")
-    ax.bar(yrs + w / 2, d.tx_to_ca_agi_kusd / 1e6, w, color=CA, label="TX → CA")
-    ax.plot(yrs, d.net_ca_to_tx_agi_kusd / 1e6, color="black", marker="o", lw=1.5,
+    ax.bar(yrs - w / 2, d.ca_to_tx_agi_real_kusd / 1e6, w, color=TX, label="CA → TX")
+    ax.bar(yrs + w / 2, d.tx_to_ca_agi_real_kusd / 1e6, w, color=CA, label="TX → CA")
+    ax.plot(yrs, d.net_ca_to_tx_agi_real_kusd / 1e6, color="black", marker="o", lw=1.5,
             label="Net (CA → TX)")
     ax.set_title("Income on the Move: California ↔ Texas AGI Flows")
-    ax.set_xlabel("Year"); ax.set_ylabel("AGI ($ billions, nominal)")
+    ax.set_xlabel("Year"); ax.set_ylabel("AGI ($ billions, real 2017)")
     ax.legend()
-    _save(fig, "05_ca_tx_bilateral_agi.png", "Source: IRS SOI Migration (nominal current $)")
+    _save(fig, "05_ca_tx_bilateral_agi.png",
+          "Source: IRS SOI Migration; deflated to real 2017 $ (US GDP deflator).")
 
 
 def fig_formd(c):
@@ -144,7 +150,7 @@ def fig_scorecard(sc):
     ax.set_title("The Split Decision: What MOVES (Texas) vs What STAYS (California)", fontsize=13)
     ax.grid(axis="y", visible=False)
     for yi, (_, lead, ca, tx, unit, _w) in zip(y, rows):
-        txt = f"CA {ca:g} / TX {tx:g} {unit}"
+        txt = f"CA {_fmt(ca)} / TX {_fmt(tx)} {unit}"
         ha = "left" if lead < 0 else "right"
         xoff = 0.02 if lead < 0 else -0.02
         ax.text(xoff if lead == 0 else (0.02 if lead < 0 else -0.02), yi,

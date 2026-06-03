@@ -1,0 +1,353 @@
+{
+  "BEAAPI": {
+    "Request": {
+      "RequestParam": [
+        {
+          "ParameterName": "USERID",
+          "ParameterValue": "C51AD538-9ED7-4C18-9A75-0E20212AF218"
+        },
+        {
+          "ParameterName": "METHOD",
+          "ParameterValue": "GETDATA"
+        },
+        {
+          "ParameterName": "DATASETNAME",
+          "ParameterValue": "REGIONAL"
+        },
+        {
+          "ParameterName": "TABLENAME",
+          "ParameterValue": "SAGDP1"
+        },
+        {
+          "ParameterName": "LINECODE",
+          "ParameterValue": "3"
+        },
+        {
+          "ParameterName": "GEOFIPS",
+          "ParameterValue": "00000"
+        },
+        {
+          "ParameterName": "YEAR",
+          "ParameterValue": "ALL"
+        },
+        {
+          "ParameterName": "RESULTFORMAT",
+          "ParameterValue": "JSON"
+        }
+      ]
+    },
+    "Results": {
+      "Statistic": "Current-dollar Gross Domestic Product (GDP)",
+      "UnitOfMeasure": "Millions of current dollars",
+      "PublicTable": "SAGDP1 State annual gross domestic product (GDP) summary",
+      "UTCProductionTime": "2026-06-03T16:30:25.257",
+      "NoteRef": " ",
+      "Dimensions": [
+        {
+          "Name": "Code",
+          "DataType": "string",
+          "IsValue": "0"
+        },
+        {
+          "Name": "GeoFips",
+          "DataType": "string",
+          "IsValue": "0"
+        },
+        {
+          "Name": "GeoName",
+          "DataType": "string",
+          "IsValue": "0"
+        },
+        {
+          "Name": "TimePeriod",
+          "DataType": "string",
+          "IsValue": "0"
+        },
+        {
+          "Name": "DataValue",
+          "DataType": "numeric",
+          "IsValue": "1"
+        },
+        {
+          "Name": "CL_UNIT",
+          "DataType": "string",
+          "IsValue": "0"
+        },
+        {
+          "Name": "UNIT_MULT",
+          "DataType": "numeric",
+          "IsValue": "0"
+        }
+      ],
+      "Data": [
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "00000",
+          "GeoName": "United States",
+          "TimePeriod": "1997",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "8577552.0"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "00000",
+          "GeoName": "United States",
+          "TimePeriod": "1998",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "9062817.0"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "00000",
+          "GeoName": "United States",
+          "TimePeriod": "1999",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "9631172.0"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "00000",
+          "GeoName": "United States",
+          "TimePeriod": "2000",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "10250952.0"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "00000",
+          "GeoName": "United States",
+          "TimePeriod": "2001",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "10581929.0"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "00000",
+          "GeoName": "United States",
+          "TimePeriod": "2002",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "10929108.0"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "00000",
+          "GeoName": "United States",
+          "TimePeriod": "2003",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "11456450.0"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "00000",
+          "GeoName": "United States",
+          "TimePeriod": "2004",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "12217196.0"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "00000",
+          "GeoName": "United States",
+          "TimePeriod": "2005",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "13039197.0"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "00000",
+          "GeoName": "United States",
+          "TimePeriod": "2006",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "13815583.0"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "00000",
+          "GeoName": "United States",
+          "TimePeriod": "2007",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "14474228.0"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "00000",
+          "GeoName": "United States",
+          "TimePeriod": "2008",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "14769862.0"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "00000",
+          "GeoName": "United States",
+          "TimePeriod": "2009",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "14478067.0"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "00000",
+          "GeoName": "United States",
+          "TimePeriod": "2010",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "15048971.0"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "00000",
+          "GeoName": "United States",
+          "TimePeriod": "2011",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "15599732.0"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "00000",
+          "GeoName": "United States",
+          "TimePeriod": "2012",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "16253970.0"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "00000",
+          "GeoName": "United States",
+          "TimePeriod": "2013",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "16880683.0"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "00000",
+          "GeoName": "United States",
+          "TimePeriod": "2014",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "17608138.0"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "00000",
+          "GeoName": "United States",
+          "TimePeriod": "2015",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "18295019.0"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "00000",
+          "GeoName": "United States",
+          "TimePeriod": "2016",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "18804913.0"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "00000",
+          "GeoName": "United States",
+          "TimePeriod": "2017",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "19612102.0"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "00000",
+          "GeoName": "United States",
+          "TimePeriod": "2018",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "20656516.0"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "00000",
+          "GeoName": "United States",
+          "TimePeriod": "2019",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "21539982.0"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "00000",
+          "GeoName": "United States",
+          "TimePeriod": "2020",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "21375281.0"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "00000",
+          "GeoName": "United States",
+          "TimePeriod": "2021",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "23725645.0"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "00000",
+          "GeoName": "United States",
+          "TimePeriod": "2022",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "26054614.0"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "00000",
+          "GeoName": "United States",
+          "TimePeriod": "2023",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "27811517.0"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "00000",
+          "GeoName": "United States",
+          "TimePeriod": "2024",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "29298013.0"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "00000",
+          "GeoName": "United States",
+          "TimePeriod": "2025",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "30762099.0"
+        }
+      ],
+      "Notes": [
+        {
+          "NoteRef": " ",
+          "NoteText": "Last updated: April 9, 2026-- new statistics for 2025."
+        }
+      ]
+    }
+  }
+}

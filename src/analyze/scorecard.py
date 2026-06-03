@@ -60,13 +60,13 @@ def build() -> pd.DataFrame:
                      m["pep_net_domestic_mig_ca"].sum(), m["pep_net_domestic_mig_tx"].sum(),
                      "persons", _span(m["pep_net_domestic_mig_ca"]), "TX"))
     rows.append(_row("Net interstate AGI (cumulative)", "moves -> TX",
-                     m["irs_net_interstate_agi_ca_kusd"].sum() / 1e6,
-                     m["irs_net_interstate_agi_tx_kusd"].sum() / 1e6,
-                     "$B nominal", _span(m["irs_net_interstate_agi_ca_kusd"]), "TX"))
-    net_ca_tx = m["net_ca_to_tx_agi_kusd"].sum() / 1e6
+                     m["irs_net_interstate_agi_ca_real_kusd"].sum() / 1e6,
+                     m["irs_net_interstate_agi_tx_real_kusd"].sum() / 1e6,
+                     "$B real (2017)", _span(m["irs_net_interstate_agi_ca_real_kusd"]), "TX"))
+    net_ca_tx = m["net_ca_to_tx_agi_real_kusd"].sum() / 1e6
     rows.append(_row("Net AGI flow, CA->TX (cumulative)", "moves -> TX",
-                     -net_ca_tx, net_ca_tx, "$B nominal (TX gain / CA loss)",
-                     _span(m["net_ca_to_tx_agi_kusd"]), "TX"))
+                     -net_ca_tx, net_ca_tx, "$B real 2017 (TX gain / CA loss)",
+                     _span(m["net_ca_to_tx_agi_real_kusd"]), "TX"))
 
     # --- private capital (stays -> CA); use latest FULL year (exclude partial) ---
     cur = dt.datetime.now().year

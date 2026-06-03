@@ -13,6 +13,7 @@ from __future__ import annotations
 
 import pandas as pd
 
+from src.clean import deflator as dfl
 from src.clean import harmonize as hz
 
 
@@ -29,6 +30,11 @@ def build() -> pd.DataFrame:
     t["formd_amount_ca_busd"] = amt["CA"] / 1e9
     t["formd_amount_tx_busd"] = amt["TX"] / 1e9
     t["formd_amount_ca_over_tx"] = amt["CA"] / amt["TX"]
+
+    # real (chained-2017 $) capital raised via the US GDP deflator
+    defl = dfl.load_deflator()
+    t["formd_amount_ca_real_busd"] = t["formd_amount_ca_busd"] / defl.reindex(t.index)
+    t["formd_amount_tx_real_busd"] = t["formd_amount_tx_busd"] / defl.reindex(t.index)
 
     return t.round(3)
 

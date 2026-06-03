@@ -15,6 +15,7 @@ from __future__ import annotations
 
 import pandas as pd
 
+from src.clean import deflator as dfl
 from src.clean import harmonize as hz
 
 
@@ -62,6 +63,12 @@ def build() -> pd.DataFrame:
     t["ca_to_tx_people"] = ca_tx_ppl.reindex(idx) if ca_tx_ppl is not None else pd.NA
     t["tx_to_ca_people"] = tx_ca_ppl.reindex(idx) if tx_ca_ppl is not None else pd.NA
     t["net_ca_to_tx_people"] = t["ca_to_tx_people"] - t["tx_to_ca_people"]
+
+    # --- real (chained-2017 $) AGI via the US GDP deflator (clean/deflator.py) ---
+    defl = dfl.load_deflator()
+    for col in ("irs_net_interstate_agi_ca_kusd", "irs_net_interstate_agi_tx_kusd",
+                "ca_to_tx_agi_kusd", "tx_to_ca_agi_kusd", "net_ca_to_tx_agi_kusd"):
+        t[col.replace("_kusd", "_real_kusd")] = t[col] / defl.reindex(t.index)
 
     return t.round(2)
 

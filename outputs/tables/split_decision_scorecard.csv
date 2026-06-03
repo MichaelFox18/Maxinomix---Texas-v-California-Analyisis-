@@ -3,8 +3,8 @@ Total real GDP,stays -> CA,3.39,2.28,$T real (chained 2017),2025,CA
 Real GDP per capita,stays -> CA,83865.65,71009.41,$ real (chained 2017),2024,CA
 Real GDP growth (cumulative),moves -> TX,33.11,39.35,% over period,2015-2025,TX
 Net domestic migration (cumulative),moves -> TX,-2163664.0,1334933.0,persons,2015-2024,TX
-Net interstate AGI (cumulative),moves -> TX,-108.27,45.72,$B nominal,2016-2023,TX
-"Net AGI flow, CA->TX (cumulative)",moves -> TX,-21.31,21.31,$B nominal (TX gain / CA loss),2016-2023,TX
+Net interstate AGI (cumulative),moves -> TX,-98.38,41.64,$B real (2017),2016-2023,TX
+"Net AGI flow, CA->TX (cumulative)",moves -> TX,-19.3,19.3,$B real 2017 (TX gain / CA loss),2016-2023,TX
 Form D offerings (new),stays -> CA,4395.0,2971.0,offerings,2025,CA
 Form D capital raised,stays -> CA,121.18,60.7,$B nominal,2025,CA
 HQ relocations verified in TX (curated),moves -> TX,,8.0,companies,current,TX
