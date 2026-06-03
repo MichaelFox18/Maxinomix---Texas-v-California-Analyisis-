@@ -135,11 +135,19 @@ sources:
 
   eia:
     name: EIA
-    base_url: https://api.eia.gov/v2/
+    base_url: https://api.eia.gov/v2
     signup_url: https://www.eia.gov/opendata/register.php
     api_key_env: EIA_API_KEY
-    gives: "Electricity prices and generation mix by state"
-    status: stub
+    gives: "Electricity price & demand (v2 API) + grid reliability SAIDI (EIA-861)"
+    status: built
+    stateid_to_fips: { CA: "06", TX: "48" }
+    start_year: 2015
+    retail_sales_path: electricity/retail-sales/data   # price (cents/kWh) + sales (million kWh)
+    reliability_861:
+      # SAIDI (outage minutes/customer/yr) is NOT in the v2 API; it lives in the
+      # annual EIA-861 Reliability_<year>.xlsx, customer-weighted to state here.
+      url_template: https://www.eia.gov/electricity/data/eia861/archive/zip/f861{year}.zip
+      years: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023]
 
   edgar:
     name: SEC EDGAR

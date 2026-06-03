@@ -1,0 +1,277 @@
+{
+  "response": {
+    "total": "22",
+    "dateFormat": "YYYY",
+    "frequency": "annual",
+    "data": [
+      {
+        "period": "2025",
+        "stateid": "CA",
+        "stateDescription": "California",
+        "sectorid": "ALL",
+        "sectorName": "all sectors",
+        "price": "27.63",
+        "sales": "237957.47888",
+        "price-units": "cents per kilowatt-hour",
+        "sales-units": "million kilowatt hours"
+      },
+      {
+        "period": "2025",
+        "stateid": "TX",
+        "stateDescription": "Texas",
+        "sectorid": "ALL",
+        "sectorName": "all sectors",
+        "price": "10.18",
+        "sales": "519699.53363",
+        "price-units": "cents per kilowatt-hour",
+        "sales-units": "million kilowatt hours"
+      },
+      {
+        "period": "2024",
+        "stateid": "CA",
+        "stateDescription": "California",
+        "sectorid": "ALL",
+        "sectorName": "all sectors",
+        "price": "27.04",
+        "sales": "245717.14497",
+        "price-units": "cents per kilowatt-hour",
+        "sales-units": "million kilowatt hours"
+      },
+      {
+        "period": "2024",
+        "stateid": "TX",
+        "stateDescription": "Texas",
+        "sectorid": "ALL",
+        "sectorName": "all sectors",
+        "price": "9.79",
+        "sales": "505431.31701",
+        "price-units": "cents per kilowatt-hour",
+        "sales-units": "million kilowatt hours"
+      },
+      {
+        "period": "2023",
+        "stateid": "CA",
+        "stateDescription": "California",
+        "sectorid": "ALL",
+        "sectorName": "all sectors",
+        "price": "24.87",
+        "sales": "239480.45202",
+        "price-units": "cents per kilowatt-hour",
+        "sales-units": "million kilowatt hours"
+      },
+      {
+        "period": "2023",
+        "stateid": "TX",
+        "stateDescription": "Texas",
+        "sectorid": "ALL",
+        "sectorName": "all sectors",
+        "price": "10.04",
+        "sales": "492820.38499",
+        "price-units": "cents per kilowatt-hour",
+        "sales-units": "million kilowatt hours"
+      },
+      {
+        "period": "2022",
+        "stateid": "CA",
+        "stateDescription": "California",
+        "sectorid": "ALL",
+        "sectorName": "all sectors",
+        "price": "22.33",
+        "sales": "251869.136",
+        "price-units": "cents per kilowatt-hour",
+        "sales-units": "million kilowatt hours"
+      },
+      {
+        "period": "2022",
+        "stateid": "TX",
+        "stateDescription": "Texas",
+        "sectorid": "ALL",
+        "sectorName": "all sectors",
+        "price": "10.16",
+        "sales": "475401.19206",
+        "price-units": "cents per kilowatt-hour",
+        "sales-units": "million kilowatt hours"
+      },
+      {
+        "period": "2021",
+        "stateid": "CA",
+        "stateDescription": "California",
+        "sectorid": "ALL",
+        "sectorName": "all sectors",
+        "price": "19.65",
+        "sales": "247249.865",
+        "price-units": "cents per kilowatt-hour",
+        "sales-units": "million kilowatt hours"
+      },
+      {
+        "period": "2021",
+        "stateid": "TX",
+        "stateDescription": "Texas",
+        "sectorid": "ALL",
+        "sectorName": "all sectors",
+        "price": "9.14",
+        "sales": "435627.87798",
+        "price-units": "cents per kilowatt-hour",
+        "sales-units": "million kilowatt hours"
+      },
+      {
+        "period": "2020",
+        "stateid": "CA",
+        "stateDescription": "California",
+        "sectorid": "ALL",
+        "sectorName": "all sectors",
+        "price": "18",
+        "sales": "250174.67203",
+        "price-units": "cents per kilowatt-hour",
+        "sales-units": "million kilowatt hours"
+      },
+      {
+        "period": "2020",
+        "stateid": "TX",
+        "stateDescription": "Texas",
+        "sectorid": "ALL",
+        "sectorName": "all sectors",
+        "price": "8.36",
+        "sales": "426863.26697",
+        "price-units": "cents per kilowatt-hour",
+        "sales-units": "million kilowatt hours"
+      },
+      {
+        "period": "2019",
+        "stateid": "CA",
+        "stateDescription": "California",
+        "sectorid": "ALL",
+        "sectorName": "all sectors",
+        "price": "16.89",
+        "sales": "250378.71",
+        "price-units": "cents per kilowatt-hour",
+        "sales-units": "million kilowatt hours"
+      },
+      {
+        "period": "2019",
+        "stateid": "TX",
+        "stateDescription": "Texas",
+        "sectorid": "ALL",
+        "sectorName": "all sectors",
+        "price": "8.6",
+        "sales": "429343.40401",
+        "price-units": "cents per kilowatt-hour",
+        "sales-units": "million kilowatt hours"
+      },
+      {
+        "period": "2018",
+        "stateid": "CA",
+        "stateDescription": "California",
+        "sectorid": "ALL",
+        "sectorName": "all sectors",
+        "price": "16.58",
+        "sales": "255224.27197",
+        "price-units": "cents per kilowatt-hour",
+        "sales-units": "million kilowatt hours"
+      },
+      {
+        "period": "2018",
+        "stateid": "TX",
+        "stateDescription": "Texas",
+        "sectorid": "ALL",
+        "sectorName": "all sectors",
+        "price": "8.48",
+        "sales": "424418.628",
+        "price-units": "cents per kilowatt-hour",
+        "sales-units": "million kilowatt hours"
+      },
+      {
+        "period": "2017",
+        "stateid": "CA",
+        "stateDescription": "California",
+        "sectorid": "ALL",
+        "sectorName": "all sectors",
+        "price": "16.06",
+        "sales": "257267.93701",
+        "price-units": "cents per kilowatt-hour",
+        "sales-units": "million kilowatt hours"
+      },
+      {
+        "period": "2017",
+        "stateid": "TX",
+        "stateDescription": "Texas",
+        "sectorid": "ALL",
+        "sectorName": "all sectors",
+        "price": "8.38",
+        "sales": "401880.37401",
+        "price-units": "cents per kilowatt-hour",
+        "sales-units": "million kilowatt hours"
+      },
+      {
+        "period": "2016",
+        "stateid": "CA",
+        "stateDescription": "California",
+        "sectorid": "ALL",
+        "sectorName": "all sectors",
+        "price": "15.23",
+        "sales": "256846.63497",
+        "price-units": "cents per kilowatt-hour",
+        "sales-units": "million kilowatt hours"
+      },
+      {
+        "period": "2016",
+        "stateid": "TX",
+        "stateDescription": "Texas",
+        "sectorid": "ALL",
+        "sectorName": "all sectors",
+        "price": "8.43",
+        "sales": "398661.80878",
+        "price-units": "cents per kilowatt-hour",
+        "sales-units": "million kilowatt hours"
+      },
+      {
+        "period": "2015",
+        "stateid": "CA",
+        "stateDescription": "California",
+        "sectorid": "ALL",
+        "sectorName": "all sectors",
+        "price": "15.42",
+        "sales": "261170.43699",
+        "price-units": "cents per kilowatt-hour",
+        "sales-units": "million kilowatt hours"
+      },
+      {
+        "period": "2015",
+        "stateid": "TX",
+        "stateDescription": "Texas",
+        "sectorid": "ALL",
+        "sectorName": "all sectors",
+        "price": "8.7",
+        "sales": "392337.35401",
+        "price-units": "cents per kilowatt-hour",
+        "sales-units": "million kilowatt hours"
+      }
+    ],
+    "description": "Electricity sales to ultimate customer by state and sector (number of customers, average price, revenue, and megawatthours of sales).  \n    Sources: Forms EIA-826, EIA-861, EIA-861M"
+  },
+  "request": {
+    "command": "/v2/electricity/retail-sales/data/",
+    "params": {
+      "frequency": "annual",
+      "data": [
+        "price",
+        "sales"
+      ],
+      "facets": {
+        "stateid": [
+          "CA",
+          "TX"
+        ],
+        "sectorid": [
+          "ALL"
+        ]
+      },
+      "start": "2015",
+      "end": "2026",
+      "length": "5000",
+      "api_key": "nRDwBggOOhLFFp8h3v7nNfdRGfhVjh1jGS3rEcuR"
+    }
+  },
+  "apiVersion": "2.1.12",
+  "ExcelAddInVersion": "2.1.0"
+}

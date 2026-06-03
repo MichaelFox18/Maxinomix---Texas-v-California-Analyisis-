@@ -1,0 +1,57 @@
+geo_id,geo_name,geo_level,year,metric,value,unit,real_or_nominal,source,source_url,retrieved_at
+06,California,state,2015,electricity_price_cents_per_kwh,15.42,cents per kWh,nominal,EIA v2 API (retail sales),https://api.eia.gov/v2/electricity/retail-sales/data,2026-06-03T18:12:47.642744+00:00
+06,California,state,2016,electricity_price_cents_per_kwh,15.23,cents per kWh,nominal,EIA v2 API (retail sales),https://api.eia.gov/v2/electricity/retail-sales/data,2026-06-03T18:12:47.642744+00:00
+06,California,state,2017,electricity_price_cents_per_kwh,16.06,cents per kWh,nominal,EIA v2 API (retail sales),https://api.eia.gov/v2/electricity/retail-sales/data,2026-06-03T18:12:47.642744+00:00
+06,California,state,2018,electricity_price_cents_per_kwh,16.58,cents per kWh,nominal,EIA v2 API (retail sales),https://api.eia.gov/v2/electricity/retail-sales/data,2026-06-03T18:12:47.642744+00:00
+06,California,state,2019,electricity_price_cents_per_kwh,16.89,cents per kWh,nominal,EIA v2 API (retail sales),https://api.eia.gov/v2/electricity/retail-sales/data,2026-06-03T18:12:47.642744+00:00
+06,California,state,2020,electricity_price_cents_per_kwh,18.0,cents per kWh,nominal,EIA v2 API (retail sales),https://api.eia.gov/v2/electricity/retail-sales/data,2026-06-03T18:12:47.642744+00:00
+06,California,state,2021,electricity_price_cents_per_kwh,19.65,cents per kWh,nominal,EIA v2 API (retail sales),https://api.eia.gov/v2/electricity/retail-sales/data,2026-06-03T18:12:47.642744+00:00
+06,California,state,2022,electricity_price_cents_per_kwh,22.33,cents per kWh,nominal,EIA v2 API (retail sales),https://api.eia.gov/v2/electricity/retail-sales/data,2026-06-03T18:12:47.642744+00:00
+06,California,state,2023,electricity_price_cents_per_kwh,24.87,cents per kWh,nominal,EIA v2 API (retail sales),https://api.eia.gov/v2/electricity/retail-sales/data,2026-06-03T18:12:47.642744+00:00
+06,California,state,2024,electricity_price_cents_per_kwh,27.04,cents per kWh,nominal,EIA v2 API (retail sales),https://api.eia.gov/v2/electricity/retail-sales/data,2026-06-03T18:12:47.642744+00:00
+06,California,state,2025,electricity_price_cents_per_kwh,27.63,cents per kWh,nominal,EIA v2 API (retail sales),https://api.eia.gov/v2/electricity/retail-sales/data,2026-06-03T18:12:47.642744+00:00
+06,California,state,2015,electricity_retail_sales_million_kwh,261170.43699,million kWh,n/a,EIA v2 API (retail sales),https://api.eia.gov/v2/electricity/retail-sales/data,2026-06-03T18:12:47.642744+00:00
+06,California,state,2016,electricity_retail_sales_million_kwh,256846.63497,million kWh,n/a,EIA v2 API (retail sales),https://api.eia.gov/v2/electricity/retail-sales/data,2026-06-03T18:12:47.642744+00:00
+06,California,state,2017,electricity_retail_sales_million_kwh,257267.93701,million kWh,n/a,EIA v2 API (retail sales),https://api.eia.gov/v2/electricity/retail-sales/data,2026-06-03T18:12:47.642744+00:00
+06,California,state,2018,electricity_retail_sales_million_kwh,255224.27197,million kWh,n/a,EIA v2 API (retail sales),https://api.eia.gov/v2/electricity/retail-sales/data,2026-06-03T18:12:47.642744+00:00
+06,California,state,2019,electricity_retail_sales_million_kwh,250378.71,million kWh,n/a,EIA v2 API (retail sales),https://api.eia.gov/v2/electricity/retail-sales/data,2026-06-03T18:12:47.642744+00:00
+06,California,state,2020,electricity_retail_sales_million_kwh,250174.67203,million kWh,n/a,EIA v2 API (retail sales),https://api.eia.gov/v2/electricity/retail-sales/data,2026-06-03T18:12:47.642744+00:00
+06,California,state,2021,electricity_retail_sales_million_kwh,247249.865,million kWh,n/a,EIA v2 API (retail sales),https://api.eia.gov/v2/electricity/retail-sales/data,2026-06-03T18:12:47.642744+00:00
+06,California,state,2022,electricity_retail_sales_million_kwh,251869.136,million kWh,n/a,EIA v2 API (retail sales),https://api.eia.gov/v2/electricity/retail-sales/data,2026-06-03T18:12:47.642744+00:00
+06,California,state,2023,electricity_retail_sales_million_kwh,239480.45202,million kWh,n/a,EIA v2 API (retail sales),https://api.eia.gov/v2/electricity/retail-sales/data,2026-06-03T18:12:47.642744+00:00
+06,California,state,2024,electricity_retail_sales_million_kwh,245717.14497,million kWh,n/a,EIA v2 API (retail sales),https://api.eia.gov/v2/electricity/retail-sales/data,2026-06-03T18:12:47.642744+00:00
+06,California,state,2025,electricity_retail_sales_million_kwh,237957.47888,million kWh,n/a,EIA v2 API (retail sales),https://api.eia.gov/v2/electricity/retail-sales/data,2026-06-03T18:12:47.642744+00:00
+06,California,state,2021,saidi_with_med_minutes,325.2,minutes per year,n/a,EIA-861 Reliability 2021 (customer-weighted),https://www.eia.gov/electricity/data/eia861/archive/zip/f8612021.zip,2026-06-03T18:12:47.642744+00:00
+06,California,state,2022,saidi_with_med_minutes,198.5,minutes per year,n/a,EIA-861 Reliability 2022 (customer-weighted),https://www.eia.gov/electricity/data/eia861/archive/zip/f8612022.zip,2026-06-03T18:12:47.642744+00:00
+06,California,state,2023,saidi_with_med_minutes,346.6,minutes per year,n/a,EIA-861 Reliability 2023 (customer-weighted),https://www.eia.gov/electricity/data/eia861/archive/zip/f8612023.zip,2026-06-03T18:12:47.642744+00:00
+06,California,state,2021,saidi_without_med_minutes,142.7,minutes per year,n/a,EIA-861 Reliability 2021 (customer-weighted),https://www.eia.gov/electricity/data/eia861/archive/zip/f8612021.zip,2026-06-03T18:12:47.642744+00:00
+06,California,state,2022,saidi_without_med_minutes,150.7,minutes per year,n/a,EIA-861 Reliability 2022 (customer-weighted),https://www.eia.gov/electricity/data/eia861/archive/zip/f8612022.zip,2026-06-03T18:12:47.642744+00:00
+06,California,state,2023,saidi_without_med_minutes,152.1,minutes per year,n/a,EIA-861 Reliability 2023 (customer-weighted),https://www.eia.gov/electricity/data/eia861/archive/zip/f8612023.zip,2026-06-03T18:12:47.642744+00:00
+48,Texas,state,2015,electricity_price_cents_per_kwh,8.7,cents per kWh,nominal,EIA v2 API (retail sales),https://api.eia.gov/v2/electricity/retail-sales/data,2026-06-03T18:12:47.642744+00:00
+48,Texas,state,2016,electricity_price_cents_per_kwh,8.43,cents per kWh,nominal,EIA v2 API (retail sales),https://api.eia.gov/v2/electricity/retail-sales/data,2026-06-03T18:12:47.642744+00:00
+48,Texas,state,2017,electricity_price_cents_per_kwh,8.38,cents per kWh,nominal,EIA v2 API (retail sales),https://api.eia.gov/v2/electricity/retail-sales/data,2026-06-03T18:12:47.642744+00:00
+48,Texas,state,2018,electricity_price_cents_per_kwh,8.48,cents per kWh,nominal,EIA v2 API (retail sales),https://api.eia.gov/v2/electricity/retail-sales/data,2026-06-03T18:12:47.642744+00:00
+48,Texas,state,2019,electricity_price_cents_per_kwh,8.6,cents per kWh,nominal,EIA v2 API (retail sales),https://api.eia.gov/v2/electricity/retail-sales/data,2026-06-03T18:12:47.642744+00:00
+48,Texas,state,2020,electricity_price_cents_per_kwh,8.36,cents per kWh,nominal,EIA v2 API (retail sales),https://api.eia.gov/v2/electricity/retail-sales/data,2026-06-03T18:12:47.642744+00:00
+48,Texas,state,2021,electricity_price_cents_per_kwh,9.14,cents per kWh,nominal,EIA v2 API (retail sales),https://api.eia.gov/v2/electricity/retail-sales/data,2026-06-03T18:12:47.642744+00:00
+48,Texas,state,2022,electricity_price_cents_per_kwh,10.16,cents per kWh,nominal,EIA v2 API (retail sales),https://api.eia.gov/v2/electricity/retail-sales/data,2026-06-03T18:12:47.642744+00:00
+48,Texas,state,2023,electricity_price_cents_per_kwh,10.04,cents per kWh,nominal,EIA v2 API (retail sales),https://api.eia.gov/v2/electricity/retail-sales/data,2026-06-03T18:12:47.642744+00:00
+48,Texas,state,2024,electricity_price_cents_per_kwh,9.79,cents per kWh,nominal,EIA v2 API (retail sales),https://api.eia.gov/v2/electricity/retail-sales/data,2026-06-03T18:12:47.642744+00:00
+48,Texas,state,2025,electricity_price_cents_per_kwh,10.18,cents per kWh,nominal,EIA v2 API (retail sales),https://api.eia.gov/v2/electricity/retail-sales/data,2026-06-03T18:12:47.642744+00:00
+48,Texas,state,2015,electricity_retail_sales_million_kwh,392337.35401,million kWh,n/a,EIA v2 API (retail sales),https://api.eia.gov/v2/electricity/retail-sales/data,2026-06-03T18:12:47.642744+00:00
+48,Texas,state,2016,electricity_retail_sales_million_kwh,398661.80878,million kWh,n/a,EIA v2 API (retail sales),https://api.eia.gov/v2/electricity/retail-sales/data,2026-06-03T18:12:47.642744+00:00
+48,Texas,state,2017,electricity_retail_sales_million_kwh,401880.37401,million kWh,n/a,EIA v2 API (retail sales),https://api.eia.gov/v2/electricity/retail-sales/data,2026-06-03T18:12:47.642744+00:00
+48,Texas,state,2018,electricity_retail_sales_million_kwh,424418.628,million kWh,n/a,EIA v2 API (retail sales),https://api.eia.gov/v2/electricity/retail-sales/data,2026-06-03T18:12:47.642744+00:00
+48,Texas,state,2019,electricity_retail_sales_million_kwh,429343.40401,million kWh,n/a,EIA v2 API (retail sales),https://api.eia.gov/v2/electricity/retail-sales/data,2026-06-03T18:12:47.642744+00:00
+48,Texas,state,2020,electricity_retail_sales_million_kwh,426863.26697,million kWh,n/a,EIA v2 API (retail sales),https://api.eia.gov/v2/electricity/retail-sales/data,2026-06-03T18:12:47.642744+00:00
+48,Texas,state,2021,electricity_retail_sales_million_kwh,435627.87798,million kWh,n/a,EIA v2 API (retail sales),https://api.eia.gov/v2/electricity/retail-sales/data,2026-06-03T18:12:47.642744+00:00
+48,Texas,state,2022,electricity_retail_sales_million_kwh,475401.19206,million kWh,n/a,EIA v2 API (retail sales),https://api.eia.gov/v2/electricity/retail-sales/data,2026-06-03T18:12:47.642744+00:00
+48,Texas,state,2023,electricity_retail_sales_million_kwh,492820.38499,million kWh,n/a,EIA v2 API (retail sales),https://api.eia.gov/v2/electricity/retail-sales/data,2026-06-03T18:12:47.642744+00:00
+48,Texas,state,2024,electricity_retail_sales_million_kwh,505431.31701,million kWh,n/a,EIA v2 API (retail sales),https://api.eia.gov/v2/electricity/retail-sales/data,2026-06-03T18:12:47.642744+00:00
+48,Texas,state,2025,electricity_retail_sales_million_kwh,519699.53363,million kWh,n/a,EIA v2 API (retail sales),https://api.eia.gov/v2/electricity/retail-sales/data,2026-06-03T18:12:47.642744+00:00
+48,Texas,state,2021,saidi_with_med_minutes,1175.3,minutes per year,n/a,EIA-861 Reliability 2021 (customer-weighted),https://www.eia.gov/electricity/data/eia861/archive/zip/f8612021.zip,2026-06-03T18:12:47.642744+00:00
+48,Texas,state,2022,saidi_with_med_minutes,212.0,minutes per year,n/a,EIA-861 Reliability 2022 (customer-weighted),https://www.eia.gov/electricity/data/eia861/archive/zip/f8612022.zip,2026-06-03T18:12:47.642744+00:00
+48,Texas,state,2023,saidi_with_med_minutes,496.2,minutes per year,n/a,EIA-861 Reliability 2023 (customer-weighted),https://www.eia.gov/electricity/data/eia861/archive/zip/f8612023.zip,2026-06-03T18:12:47.642744+00:00
+48,Texas,state,2021,saidi_without_med_minutes,147.4,minutes per year,n/a,EIA-861 Reliability 2021 (customer-weighted),https://www.eia.gov/electricity/data/eia861/archive/zip/f8612021.zip,2026-06-03T18:12:47.642744+00:00
+48,Texas,state,2022,saidi_without_med_minutes,127.5,minutes per year,n/a,EIA-861 Reliability 2022 (customer-weighted),https://www.eia.gov/electricity/data/eia861/archive/zip/f8612022.zip,2026-06-03T18:12:47.642744+00:00
+48,Texas,state,2023,saidi_without_med_minutes,124.7,minutes per year,n/a,EIA-861 Reliability 2023 (customer-weighted),https://www.eia.gov/electricity/data/eia861/archive/zip/f8612023.zip,2026-06-03T18:12:47.642744+00:00
