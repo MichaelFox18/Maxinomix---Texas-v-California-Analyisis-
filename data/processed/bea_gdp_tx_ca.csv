@@ -1,0 +1,45 @@
+geo_id,geo_name,geo_level,year,metric,value,unit,real_or_nominal,source,source_url,retrieved_at
+06000,California,state,2015,gdp_nominal,2487156.4,Millions of current dollars,nominal,BEA Regional SAGDP1,https://apps.bea.gov/api/data,2026-06-02T20:30:19.052862+00:00
+06000,California,state,2016,gdp_nominal,2586485.2,Millions of current dollars,nominal,BEA Regional SAGDP1,https://apps.bea.gov/api/data,2026-06-02T20:30:19.052862+00:00
+06000,California,state,2017,gdp_nominal,2740550.3,Millions of current dollars,nominal,BEA Regional SAGDP1,https://apps.bea.gov/api/data,2026-06-02T20:30:19.052862+00:00
+06000,California,state,2018,gdp_nominal,2899530.9,Millions of current dollars,nominal,BEA Regional SAGDP1,https://apps.bea.gov/api/data,2026-06-02T20:30:19.052862+00:00
+06000,California,state,2019,gdp_nominal,3068629.7,Millions of current dollars,nominal,BEA Regional SAGDP1,https://apps.bea.gov/api/data,2026-06-02T20:30:19.052862+00:00
+06000,California,state,2020,gdp_nominal,3072927.6,Millions of current dollars,nominal,BEA Regional SAGDP1,https://apps.bea.gov/api/data,2026-06-02T20:30:19.052862+00:00
+06000,California,state,2021,gdp_nominal,3418256.1,Millions of current dollars,nominal,BEA Regional SAGDP1,https://apps.bea.gov/api/data,2026-06-02T20:30:19.052862+00:00
+06000,California,state,2022,gdp_nominal,3618289.7,Millions of current dollars,nominal,BEA Regional SAGDP1,https://apps.bea.gov/api/data,2026-06-02T20:30:19.052862+00:00
+06000,California,state,2023,gdp_nominal,3827007.3,Millions of current dollars,nominal,BEA Regional SAGDP1,https://apps.bea.gov/api/data,2026-06-02T20:30:19.052862+00:00
+06000,California,state,2024,gdp_nominal,4048108.1,Millions of current dollars,nominal,BEA Regional SAGDP1,https://apps.bea.gov/api/data,2026-06-02T20:30:19.052862+00:00
+06000,California,state,2025,gdp_nominal,4250840.8,Millions of current dollars,nominal,BEA Regional SAGDP1,https://apps.bea.gov/api/data,2026-06-02T20:30:19.052862+00:00
+06000,California,state,2015,gdp_real,2545979.5,Millions of chained 2017 dollars,real,BEA Regional SAGDP1,https://apps.bea.gov/api/data,2026-06-02T20:30:19.052862+00:00
+06000,California,state,2016,gdp_real,2623711.7,Millions of chained 2017 dollars,real,BEA Regional SAGDP1,https://apps.bea.gov/api/data,2026-06-02T20:30:19.052862+00:00
+06000,California,state,2017,gdp_real,2740550.3,Millions of chained 2017 dollars,real,BEA Regional SAGDP1,https://apps.bea.gov/api/data,2026-06-02T20:30:19.052862+00:00
+06000,California,state,2018,gdp_real,2850970.3,Millions of chained 2017 dollars,real,BEA Regional SAGDP1,https://apps.bea.gov/api/data,2026-06-02T20:30:19.052862+00:00
+06000,California,state,2019,gdp_real,2969609.0,Millions of chained 2017 dollars,real,BEA Regional SAGDP1,https://apps.bea.gov/api/data,2026-06-02T20:30:19.052862+00:00
+06000,California,state,2020,gdp_real,2930654.6,Millions of chained 2017 dollars,real,BEA Regional SAGDP1,https://apps.bea.gov/api/data,2026-06-02T20:30:19.052862+00:00
+06000,California,state,2021,gdp_real,3151112.5,Millions of chained 2017 dollars,real,BEA Regional SAGDP1,https://apps.bea.gov/api/data,2026-06-02T20:30:19.052862+00:00
+06000,California,state,2022,gdp_real,3147211.4,Millions of chained 2017 dollars,real,BEA Regional SAGDP1,https://apps.bea.gov/api/data,2026-06-02T20:30:19.052862+00:00
+06000,California,state,2023,gdp_real,3204016.4,Millions of chained 2017 dollars,real,BEA Regional SAGDP1,https://apps.bea.gov/api/data,2026-06-02T20:30:19.052862+00:00
+06000,California,state,2024,gdp_real,3306928.6,Millions of chained 2017 dollars,real,BEA Regional SAGDP1,https://apps.bea.gov/api/data,2026-06-02T20:30:19.052862+00:00
+06000,California,state,2025,gdp_real,3388904.8,Millions of chained 2017 dollars,real,BEA Regional SAGDP1,https://apps.bea.gov/api/data,2026-06-02T20:30:19.052862+00:00
+48000,Texas,state,2015,gdp_nominal,1585985.9,Millions of current dollars,nominal,BEA Regional SAGDP1,https://apps.bea.gov/api/data,2026-06-02T20:30:19.052862+00:00
+48000,Texas,state,2016,gdp_nominal,1582981.5,Millions of current dollars,nominal,BEA Regional SAGDP1,https://apps.bea.gov/api/data,2026-06-02T20:30:19.052862+00:00
+48000,Texas,state,2017,gdp_nominal,1667313.0,Millions of current dollars,nominal,BEA Regional SAGDP1,https://apps.bea.gov/api/data,2026-06-02T20:30:19.052862+00:00
+48000,Texas,state,2018,gdp_nominal,1808026.9,Millions of current dollars,nominal,BEA Regional SAGDP1,https://apps.bea.gov/api/data,2026-06-02T20:30:19.052862+00:00
+48000,Texas,state,2019,gdp_nominal,1864872.3,Millions of current dollars,nominal,BEA Regional SAGDP1,https://apps.bea.gov/api/data,2026-06-02T20:30:19.052862+00:00
+48000,Texas,state,2020,gdp_nominal,1810670.2,Millions of current dollars,nominal,BEA Regional SAGDP1,https://apps.bea.gov/api/data,2026-06-02T20:30:19.052862+00:00
+48000,Texas,state,2021,gdp_nominal,2117013.7,Millions of current dollars,nominal,BEA Regional SAGDP1,https://apps.bea.gov/api/data,2026-06-02T20:30:19.052862+00:00
+48000,Texas,state,2022,gdp_nominal,2476903.2,Millions of current dollars,nominal,BEA Regional SAGDP1,https://apps.bea.gov/api/data,2026-06-02T20:30:19.052862+00:00
+48000,Texas,state,2023,gdp_nominal,2637237.6,Millions of current dollars,nominal,BEA Regional SAGDP1,https://apps.bea.gov/api/data,2026-06-02T20:30:19.052862+00:00
+48000,Texas,state,2024,gdp_nominal,2769766.2,Millions of current dollars,nominal,BEA Regional SAGDP1,https://apps.bea.gov/api/data,2026-06-02T20:30:19.052862+00:00
+48000,Texas,state,2025,gdp_nominal,2904427.8,Millions of current dollars,nominal,BEA Regional SAGDP1,https://apps.bea.gov/api/data,2026-06-02T20:30:19.052862+00:00
+48000,Texas,state,2015,gdp_real,1634127.1,Millions of chained 2017 dollars,real,BEA Regional SAGDP1,https://apps.bea.gov/api/data,2026-06-02T20:30:19.052862+00:00
+48000,Texas,state,2016,gdp_real,1633863.3,Millions of chained 2017 dollars,real,BEA Regional SAGDP1,https://apps.bea.gov/api/data,2026-06-02T20:30:19.052862+00:00
+48000,Texas,state,2017,gdp_real,1667313.0,Millions of chained 2017 dollars,real,BEA Regional SAGDP1,https://apps.bea.gov/api/data,2026-06-02T20:30:19.052862+00:00
+48000,Texas,state,2018,gdp_real,1746543.3,Millions of chained 2017 dollars,real,BEA Regional SAGDP1,https://apps.bea.gov/api/data,2026-06-02T20:30:19.052862+00:00
+48000,Texas,state,2019,gdp_real,1806736.1,Millions of chained 2017 dollars,real,BEA Regional SAGDP1,https://apps.bea.gov/api/data,2026-06-02T20:30:19.052862+00:00
+48000,Texas,state,2020,gdp_real,1782738.2,Millions of chained 2017 dollars,real,BEA Regional SAGDP1,https://apps.bea.gov/api/data,2026-06-02T20:30:19.052862+00:00
+48000,Texas,state,2021,gdp_real,1905512.4,Millions of chained 2017 dollars,real,BEA Regional SAGDP1,https://apps.bea.gov/api/data,2026-06-02T20:30:19.052862+00:00
+48000,Texas,state,2022,gdp_real,1975164.0,Millions of chained 2017 dollars,real,BEA Regional SAGDP1,https://apps.bea.gov/api/data,2026-06-02T20:30:19.052862+00:00
+48000,Texas,state,2023,gdp_real,2137536.7,Millions of chained 2017 dollars,real,BEA Regional SAGDP1,https://apps.bea.gov/api/data,2026-06-02T20:30:19.052862+00:00
+48000,Texas,state,2024,gdp_real,2221943.3,Millions of chained 2017 dollars,real,BEA Regional SAGDP1,https://apps.bea.gov/api/data,2026-06-02T20:30:19.052862+00:00
+48000,Texas,state,2025,gdp_real,2277203.3,Millions of chained 2017 dollars,real,BEA Regional SAGDP1,https://apps.bea.gov/api/data,2026-06-02T20:30:19.052862+00:00

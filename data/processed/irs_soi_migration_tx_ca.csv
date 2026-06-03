@@ -1,0 +1,145 @@
+geo_id,geo_name,geo_level,year,metric,value,unit,real_or_nominal,source,source_url,retrieved_at
+06,California,state,2016,domestic_in_agi,18794372.0,thousands of current USD,nominal,IRS SOI Migration 2015-2016,https://www.irs.gov/pub/irs-soi/stateinflow1516.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2017,domestic_in_agi,24199153.0,thousands of current USD,nominal,IRS SOI Migration 2016-2017,https://www.irs.gov/pub/irs-soi/stateinflow1617.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2018,domestic_in_agi,19476281.0,thousands of current USD,nominal,IRS SOI Migration 2017-2018,https://www.irs.gov/pub/irs-soi/stateinflow1718.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2019,domestic_in_agi,20852970.0,thousands of current USD,nominal,IRS SOI Migration 2018-2019,https://www.irs.gov/pub/irs-soi/stateinflow1819.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2020,domestic_in_agi,20637616.0,thousands of current USD,nominal,IRS SOI Migration 2019-2020,https://www.irs.gov/pub/irs-soi/stateinflow1920.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2021,domestic_in_agi,21003232.0,thousands of current USD,nominal,IRS SOI Migration 2020-2021,https://www.irs.gov/pub/irs-soi/stateinflow2021.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2022,domestic_in_agi,28473510.0,thousands of current USD,nominal,IRS SOI Migration 2021-2022,https://www.irs.gov/pub/irs-soi/stateinflow2122.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2023,domestic_in_agi,24154333.0,thousands of current USD,nominal,IRS SOI Migration 2022-2023,https://www.irs.gov/pub/irs-soi/stateinflow2223.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2016,domestic_in_individuals,432443.0,individuals,n/a,IRS SOI Migration 2015-2016,https://www.irs.gov/pub/irs-soi/stateinflow1516.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2017,domestic_in_individuals,560173.0,individuals,n/a,IRS SOI Migration 2016-2017,https://www.irs.gov/pub/irs-soi/stateinflow1617.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2018,domestic_in_individuals,429856.0,individuals,n/a,IRS SOI Migration 2017-2018,https://www.irs.gov/pub/irs-soi/stateinflow1718.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2019,domestic_in_individuals,406971.0,individuals,n/a,IRS SOI Migration 2018-2019,https://www.irs.gov/pub/irs-soi/stateinflow1819.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2020,domestic_in_individuals,412714.0,individuals,n/a,IRS SOI Migration 2019-2020,https://www.irs.gov/pub/irs-soi/stateinflow1920.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2021,domestic_in_individuals,385188.0,individuals,n/a,IRS SOI Migration 2020-2021,https://www.irs.gov/pub/irs-soi/stateinflow2021.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2022,domestic_in_individuals,396571.0,individuals,n/a,IRS SOI Migration 2021-2022,https://www.irs.gov/pub/irs-soi/stateinflow2122.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2023,domestic_in_individuals,389700.0,individuals,n/a,IRS SOI Migration 2022-2023,https://www.irs.gov/pub/irs-soi/stateinflow2223.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2016,domestic_in_returns,250076.0,returns,n/a,IRS SOI Migration 2015-2016,https://www.irs.gov/pub/irs-soi/stateinflow1516.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2017,domestic_in_returns,322066.0,returns,n/a,IRS SOI Migration 2016-2017,https://www.irs.gov/pub/irs-soi/stateinflow1617.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2018,domestic_in_returns,256021.0,returns,n/a,IRS SOI Migration 2017-2018,https://www.irs.gov/pub/irs-soi/stateinflow1718.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2019,domestic_in_returns,248103.0,returns,n/a,IRS SOI Migration 2018-2019,https://www.irs.gov/pub/irs-soi/stateinflow1819.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2020,domestic_in_returns,248447.0,returns,n/a,IRS SOI Migration 2019-2020,https://www.irs.gov/pub/irs-soi/stateinflow1920.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2021,domestic_in_returns,241216.0,returns,n/a,IRS SOI Migration 2020-2021,https://www.irs.gov/pub/irs-soi/stateinflow2021.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2022,domestic_in_returns,254935.0,returns,n/a,IRS SOI Migration 2021-2022,https://www.irs.gov/pub/irs-soi/stateinflow2122.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2023,domestic_in_returns,252863.0,returns,n/a,IRS SOI Migration 2022-2023,https://www.irs.gov/pub/irs-soi/stateinflow2223.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2016,domestic_out_agi,20800487.0,thousands of current USD,nominal,IRS SOI Migration 2015-2016,https://www.irs.gov/pub/irs-soi/stateoutflow1516.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2017,domestic_out_agi,31074294.0,thousands of current USD,nominal,IRS SOI Migration 2016-2017,https://www.irs.gov/pub/irs-soi/stateoutflow1617.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2018,domestic_out_agi,27460020.0,thousands of current USD,nominal,IRS SOI Migration 2017-2018,https://www.irs.gov/pub/irs-soi/stateoutflow1718.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2019,domestic_out_agi,29662258.0,thousands of current USD,nominal,IRS SOI Migration 2018-2019,https://www.irs.gov/pub/irs-soi/stateoutflow1819.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2020,domestic_out_agi,38452732.0,thousands of current USD,nominal,IRS SOI Migration 2019-2020,https://www.irs.gov/pub/irs-soi/stateoutflow1920.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2021,domestic_out_agi,50074195.0,thousands of current USD,nominal,IRS SOI Migration 2020-2021,https://www.irs.gov/pub/irs-soi/stateoutflow2021.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2022,domestic_out_agi,52265473.0,thousands of current USD,nominal,IRS SOI Migration 2021-2022,https://www.irs.gov/pub/irs-soi/stateoutflow2122.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2023,domestic_out_agi,36074839.0,thousands of current USD,nominal,IRS SOI Migration 2022-2023,https://www.irs.gov/pub/irs-soi/stateoutflow2223.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2016,domestic_out_individuals,521161.0,individuals,n/a,IRS SOI Migration 2015-2016,https://www.irs.gov/pub/irs-soi/stateoutflow1516.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2017,domestic_out_individuals,738242.0,individuals,n/a,IRS SOI Migration 2016-2017,https://www.irs.gov/pub/irs-soi/stateoutflow1617.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2018,domestic_out_individuals,583053.0,individuals,n/a,IRS SOI Migration 2017-2018,https://www.irs.gov/pub/irs-soi/stateoutflow1718.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2019,domestic_out_individuals,576453.0,individuals,n/a,IRS SOI Migration 2018-2019,https://www.irs.gov/pub/irs-soi/stateoutflow1819.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2020,domestic_out_individuals,676058.0,individuals,n/a,IRS SOI Migration 2019-2020,https://www.irs.gov/pub/irs-soi/stateoutflow1920.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2021,domestic_out_individuals,716948.0,individuals,n/a,IRS SOI Migration 2020-2021,https://www.irs.gov/pub/irs-soi/stateoutflow2021.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2022,domestic_out_individuals,703688.0,individuals,n/a,IRS SOI Migration 2021-2022,https://www.irs.gov/pub/irs-soi/stateoutflow2122.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2023,domestic_out_individuals,590247.0,individuals,n/a,IRS SOI Migration 2022-2023,https://www.irs.gov/pub/irs-soi/stateoutflow2223.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2016,domestic_out_returns,275989.0,returns,n/a,IRS SOI Migration 2015-2016,https://www.irs.gov/pub/irs-soi/stateoutflow1516.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2017,domestic_out_returns,387080.0,returns,n/a,IRS SOI Migration 2016-2017,https://www.irs.gov/pub/irs-soi/stateoutflow1617.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2018,domestic_out_returns,317449.0,returns,n/a,IRS SOI Migration 2017-2018,https://www.irs.gov/pub/irs-soi/stateoutflow1718.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2019,domestic_out_returns,319650.0,returns,n/a,IRS SOI Migration 2018-2019,https://www.irs.gov/pub/irs-soi/stateoutflow1819.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2020,domestic_out_returns,365922.0,returns,n/a,IRS SOI Migration 2019-2020,https://www.irs.gov/pub/irs-soi/stateoutflow1920.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2021,domestic_out_returns,399436.0,returns,n/a,IRS SOI Migration 2020-2021,https://www.irs.gov/pub/irs-soi/stateoutflow2021.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2022,domestic_out_returns,399138.0,returns,n/a,IRS SOI Migration 2021-2022,https://www.irs.gov/pub/irs-soi/stateoutflow2122.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2023,domestic_out_returns,353260.0,returns,n/a,IRS SOI Migration 2022-2023,https://www.irs.gov/pub/irs-soi/stateoutflow2223.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2016,out_to_TX_agi,2353043.0,thousands of current USD,nominal,IRS SOI Migration 2015-2016,https://www.irs.gov/pub/irs-soi/stateoutflow1516.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2017,out_to_TX_agi,3549333.0,thousands of current USD,nominal,IRS SOI Migration 2016-2017,https://www.irs.gov/pub/irs-soi/stateoutflow1617.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2018,out_to_TX_agi,3143998.0,thousands of current USD,nominal,IRS SOI Migration 2017-2018,https://www.irs.gov/pub/irs-soi/stateoutflow1718.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2019,out_to_TX_agi,3448399.0,thousands of current USD,nominal,IRS SOI Migration 2018-2019,https://www.irs.gov/pub/irs-soi/stateoutflow1819.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2020,out_to_TX_agi,4569503.0,thousands of current USD,nominal,IRS SOI Migration 2019-2020,https://www.irs.gov/pub/irs-soi/stateoutflow1920.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2021,out_to_TX_agi,7221838.0,thousands of current USD,nominal,IRS SOI Migration 2020-2021,https://www.irs.gov/pub/irs-soi/stateoutflow2021.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2022,out_to_TX_agi,7901692.0,thousands of current USD,nominal,IRS SOI Migration 2021-2022,https://www.irs.gov/pub/irs-soi/stateoutflow2122.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2023,out_to_TX_agi,4764727.0,thousands of current USD,nominal,IRS SOI Migration 2022-2023,https://www.irs.gov/pub/irs-soi/stateoutflow2223.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2016,out_to_TX_individuals,62767.0,individuals,n/a,IRS SOI Migration 2015-2016,https://www.irs.gov/pub/irs-soi/stateoutflow1516.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2017,out_to_TX_individuals,88964.0,individuals,n/a,IRS SOI Migration 2016-2017,https://www.irs.gov/pub/irs-soi/stateoutflow1617.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2018,out_to_TX_individuals,70130.0,individuals,n/a,IRS SOI Migration 2017-2018,https://www.irs.gov/pub/irs-soi/stateoutflow1718.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2019,out_to_TX_individuals,72306.0,individuals,n/a,IRS SOI Migration 2018-2019,https://www.irs.gov/pub/irs-soi/stateoutflow1819.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2020,out_to_TX_individuals,87707.0,individuals,n/a,IRS SOI Migration 2019-2020,https://www.irs.gov/pub/irs-soi/stateoutflow1920.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2021,out_to_TX_individuals,105434.0,individuals,n/a,IRS SOI Migration 2020-2021,https://www.irs.gov/pub/irs-soi/stateoutflow2021.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2022,out_to_TX_individuals,106882.0,individuals,n/a,IRS SOI Migration 2021-2022,https://www.irs.gov/pub/irs-soi/stateoutflow2122.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2023,out_to_TX_individuals,82481.0,individuals,n/a,IRS SOI Migration 2022-2023,https://www.irs.gov/pub/irs-soi/stateoutflow2223.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2016,out_to_TX_returns,30052.0,returns,n/a,IRS SOI Migration 2015-2016,https://www.irs.gov/pub/irs-soi/stateoutflow1516.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2017,out_to_TX_returns,41707.0,returns,n/a,IRS SOI Migration 2016-2017,https://www.irs.gov/pub/irs-soi/stateoutflow1617.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2018,out_to_TX_returns,34526.0,returns,n/a,IRS SOI Migration 2017-2018,https://www.irs.gov/pub/irs-soi/stateoutflow1718.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2019,out_to_TX_returns,36103.0,returns,n/a,IRS SOI Migration 2018-2019,https://www.irs.gov/pub/irs-soi/stateoutflow1819.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2020,out_to_TX_returns,42892.0,returns,n/a,IRS SOI Migration 2019-2020,https://www.irs.gov/pub/irs-soi/stateoutflow1920.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2021,out_to_TX_returns,52816.0,returns,n/a,IRS SOI Migration 2020-2021,https://www.irs.gov/pub/irs-soi/stateoutflow2021.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2022,out_to_TX_returns,54136.0,returns,n/a,IRS SOI Migration 2021-2022,https://www.irs.gov/pub/irs-soi/stateoutflow2122.csv,2026-06-03T14:40:29.849543+00:00
+06,California,state,2023,out_to_TX_returns,44417.0,returns,n/a,IRS SOI Migration 2022-2023,https://www.irs.gov/pub/irs-soi/stateoutflow2223.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2016,domestic_in_agi,16945145.0,thousands of current USD,nominal,IRS SOI Migration 2015-2016,https://www.irs.gov/pub/irs-soi/stateinflow1516.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2017,domestic_in_agi,22032155.0,thousands of current USD,nominal,IRS SOI Migration 2016-2017,https://www.irs.gov/pub/irs-soi/stateinflow1617.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2018,domestic_in_agi,18063786.0,thousands of current USD,nominal,IRS SOI Migration 2017-2018,https://www.irs.gov/pub/irs-soi/stateinflow1718.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2019,domestic_in_agi,19277889.0,thousands of current USD,nominal,IRS SOI Migration 2018-2019,https://www.irs.gov/pub/irs-soi/stateinflow1819.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2020,domestic_in_agi,22789787.0,thousands of current USD,nominal,IRS SOI Migration 2019-2020,https://www.irs.gov/pub/irs-soi/stateinflow1920.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2021,domestic_in_agi,27539009.0,thousands of current USD,nominal,IRS SOI Migration 2020-2021,https://www.irs.gov/pub/irs-soi/stateinflow2021.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2022,domestic_in_agi,31636915.0,thousands of current USD,nominal,IRS SOI Migration 2021-2022,https://www.irs.gov/pub/irs-soi/stateinflow2122.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2023,domestic_in_agi,25695193.0,thousands of current USD,nominal,IRS SOI Migration 2022-2023,https://www.irs.gov/pub/irs-soi/stateinflow2223.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2016,domestic_in_individuals,508723.0,individuals,n/a,IRS SOI Migration 2015-2016,https://www.irs.gov/pub/irs-soi/stateinflow1516.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2017,domestic_in_individuals,658830.0,individuals,n/a,IRS SOI Migration 2016-2017,https://www.irs.gov/pub/irs-soi/stateinflow1617.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2018,domestic_in_individuals,505072.0,individuals,n/a,IRS SOI Migration 2017-2018,https://www.irs.gov/pub/irs-soi/stateinflow1718.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2019,domestic_in_individuals,504949.0,individuals,n/a,IRS SOI Migration 2018-2019,https://www.irs.gov/pub/irs-soi/stateinflow1819.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2020,domestic_in_individuals,561736.0,individuals,n/a,IRS SOI Migration 2019-2020,https://www.irs.gov/pub/irs-soi/stateinflow1920.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2021,domestic_in_individuals,595736.0,individuals,n/a,IRS SOI Migration 2020-2021,https://www.irs.gov/pub/irs-soi/stateinflow2021.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2022,domestic_in_individuals,614433.0,individuals,n/a,IRS SOI Migration 2021-2022,https://www.irs.gov/pub/irs-soi/stateinflow2122.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2023,domestic_in_individuals,553369.0,individuals,n/a,IRS SOI Migration 2022-2023,https://www.irs.gov/pub/irs-soi/stateinflow2223.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2016,domestic_in_returns,246864.0,returns,n/a,IRS SOI Migration 2015-2016,https://www.irs.gov/pub/irs-soi/stateinflow1516.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2017,domestic_in_returns,315539.0,returns,n/a,IRS SOI Migration 2016-2017,https://www.irs.gov/pub/irs-soi/stateinflow1617.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2018,domestic_in_returns,252595.0,returns,n/a,IRS SOI Migration 2017-2018,https://www.irs.gov/pub/irs-soi/stateinflow1718.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2019,domestic_in_returns,256355.0,returns,n/a,IRS SOI Migration 2018-2019,https://www.irs.gov/pub/irs-soi/stateinflow1819.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2020,domestic_in_returns,280783.0,returns,n/a,IRS SOI Migration 2019-2020,https://www.irs.gov/pub/irs-soi/stateinflow1920.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2021,domestic_in_returns,310132.0,returns,n/a,IRS SOI Migration 2020-2021,https://www.irs.gov/pub/irs-soi/stateinflow2021.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2022,domestic_in_returns,327817.0,returns,n/a,IRS SOI Migration 2021-2022,https://www.irs.gov/pub/irs-soi/stateinflow2122.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2023,domestic_in_returns,307240.0,returns,n/a,IRS SOI Migration 2022-2023,https://www.irs.gov/pub/irs-soi/stateinflow2223.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2016,domestic_out_agi,14604232.0,thousands of current USD,nominal,IRS SOI Migration 2015-2016,https://www.irs.gov/pub/irs-soi/stateoutflow1516.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2017,domestic_out_agi,18871090.0,thousands of current USD,nominal,IRS SOI Migration 2016-2017,https://www.irs.gov/pub/irs-soi/stateoutflow1617.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2018,domestic_out_agi,14683762.0,thousands of current USD,nominal,IRS SOI Migration 2017-2018,https://www.irs.gov/pub/irs-soi/stateoutflow1718.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2019,domestic_out_agi,15371862.0,thousands of current USD,nominal,IRS SOI Migration 2018-2019,https://www.irs.gov/pub/irs-soi/stateoutflow1819.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2020,domestic_out_agi,16442822.0,thousands of current USD,nominal,IRS SOI Migration 2019-2020,https://www.irs.gov/pub/irs-soi/stateoutflow1920.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2021,domestic_out_agi,16637706.0,thousands of current USD,nominal,IRS SOI Migration 2020-2021,https://www.irs.gov/pub/irs-soi/stateoutflow2021.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2022,domestic_out_agi,21498654.0,thousands of current USD,nominal,IRS SOI Migration 2021-2022,https://www.irs.gov/pub/irs-soi/stateoutflow2122.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2023,domestic_out_agi,20151443.0,thousands of current USD,nominal,IRS SOI Migration 2022-2023,https://www.irs.gov/pub/irs-soi/stateoutflow2223.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2016,domestic_out_individuals,453503.0,individuals,n/a,IRS SOI Migration 2015-2016,https://www.irs.gov/pub/irs-soi/stateoutflow1516.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2017,domestic_out_individuals,560601.0,individuals,n/a,IRS SOI Migration 2016-2017,https://www.irs.gov/pub/irs-soi/stateoutflow1617.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2018,domestic_out_individuals,427600.0,individuals,n/a,IRS SOI Migration 2017-2018,https://www.irs.gov/pub/irs-soi/stateoutflow1718.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2019,domestic_out_individuals,393747.0,individuals,n/a,IRS SOI Migration 2018-2019,https://www.irs.gov/pub/irs-soi/stateoutflow1819.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2020,domestic_out_individuals,428286.0,individuals,n/a,IRS SOI Migration 2019-2020,https://www.irs.gov/pub/irs-soi/stateoutflow1920.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2021,domestic_out_individuals,420870.0,individuals,n/a,IRS SOI Migration 2020-2021,https://www.irs.gov/pub/irs-soi/stateoutflow2021.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2022,domestic_out_individuals,433563.0,individuals,n/a,IRS SOI Migration 2021-2022,https://www.irs.gov/pub/irs-soi/stateoutflow2122.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2023,domestic_out_individuals,440888.0,individuals,n/a,IRS SOI Migration 2022-2023,https://www.irs.gov/pub/irs-soi/stateoutflow2223.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2016,domestic_out_returns,227450.0,returns,n/a,IRS SOI Migration 2015-2016,https://www.irs.gov/pub/irs-soi/stateoutflow1516.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2017,domestic_out_returns,276115.0,returns,n/a,IRS SOI Migration 2016-2017,https://www.irs.gov/pub/irs-soi/stateoutflow1617.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2018,domestic_out_returns,217682.0,returns,n/a,IRS SOI Migration 2017-2018,https://www.irs.gov/pub/irs-soi/stateoutflow1718.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2019,domestic_out_returns,204996.0,returns,n/a,IRS SOI Migration 2018-2019,https://www.irs.gov/pub/irs-soi/stateoutflow1819.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2020,domestic_out_returns,218116.0,returns,n/a,IRS SOI Migration 2019-2020,https://www.irs.gov/pub/irs-soi/stateoutflow1920.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2021,domestic_out_returns,227290.0,returns,n/a,IRS SOI Migration 2020-2021,https://www.irs.gov/pub/irs-soi/stateoutflow2021.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2022,domestic_out_returns,239601.0,returns,n/a,IRS SOI Migration 2021-2022,https://www.irs.gov/pub/irs-soi/stateoutflow2122.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2023,domestic_out_returns,250767.0,returns,n/a,IRS SOI Migration 2022-2023,https://www.irs.gov/pub/irs-soi/stateoutflow2223.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2016,out_to_CA_agi,1841450.0,thousands of current USD,nominal,IRS SOI Migration 2015-2016,https://www.irs.gov/pub/irs-soi/stateoutflow1516.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2017,out_to_CA_agi,2153237.0,thousands of current USD,nominal,IRS SOI Migration 2016-2017,https://www.irs.gov/pub/irs-soi/stateoutflow1617.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2018,out_to_CA_agi,1613625.0,thousands of current USD,nominal,IRS SOI Migration 2017-2018,https://www.irs.gov/pub/irs-soi/stateoutflow1718.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2019,out_to_CA_agi,1866775.0,thousands of current USD,nominal,IRS SOI Migration 2018-2019,https://www.irs.gov/pub/irs-soi/stateoutflow1819.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2020,out_to_CA_agi,1714877.0,thousands of current USD,nominal,IRS SOI Migration 2019-2020,https://www.irs.gov/pub/irs-soi/stateoutflow1920.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2021,out_to_CA_agi,1591033.0,thousands of current USD,nominal,IRS SOI Migration 2020-2021,https://www.irs.gov/pub/irs-soi/stateoutflow2021.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2022,out_to_CA_agi,2476091.0,thousands of current USD,nominal,IRS SOI Migration 2021-2022,https://www.irs.gov/pub/irs-soi/stateoutflow2122.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2023,out_to_CA_agi,2384297.0,thousands of current USD,nominal,IRS SOI Migration 2022-2023,https://www.irs.gov/pub/irs-soi/stateoutflow2223.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2016,out_to_CA_individuals,45596.0,individuals,n/a,IRS SOI Migration 2015-2016,https://www.irs.gov/pub/irs-soi/stateoutflow1516.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2017,out_to_CA_individuals,54956.0,individuals,n/a,IRS SOI Migration 2016-2017,https://www.irs.gov/pub/irs-soi/stateoutflow1617.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2018,out_to_CA_individuals,42879.0,individuals,n/a,IRS SOI Migration 2017-2018,https://www.irs.gov/pub/irs-soi/stateoutflow1718.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2019,out_to_CA_individuals,39032.0,individuals,n/a,IRS SOI Migration 2018-2019,https://www.irs.gov/pub/irs-soi/stateoutflow1819.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2020,out_to_CA_individuals,38445.0,individuals,n/a,IRS SOI Migration 2019-2020,https://www.irs.gov/pub/irs-soi/stateoutflow1920.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2021,out_to_CA_individuals,36092.0,individuals,n/a,IRS SOI Migration 2020-2021,https://www.irs.gov/pub/irs-soi/stateoutflow2021.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2022,out_to_CA_individuals,39032.0,individuals,n/a,IRS SOI Migration 2021-2022,https://www.irs.gov/pub/irs-soi/stateoutflow2122.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2023,out_to_CA_individuals,41232.0,individuals,n/a,IRS SOI Migration 2022-2023,https://www.irs.gov/pub/irs-soi/stateoutflow2223.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2016,out_to_CA_returns,24257.0,returns,n/a,IRS SOI Migration 2015-2016,https://www.irs.gov/pub/irs-soi/stateoutflow1516.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2017,out_to_CA_returns,29370.0,returns,n/a,IRS SOI Migration 2016-2017,https://www.irs.gov/pub/irs-soi/stateoutflow1617.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2018,out_to_CA_returns,23416.0,returns,n/a,IRS SOI Migration 2017-2018,https://www.irs.gov/pub/irs-soi/stateoutflow1718.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2019,out_to_CA_returns,21861.0,returns,n/a,IRS SOI Migration 2018-2019,https://www.irs.gov/pub/irs-soi/stateoutflow1819.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2020,out_to_CA_returns,21571.0,returns,n/a,IRS SOI Migration 2019-2020,https://www.irs.gov/pub/irs-soi/stateoutflow1920.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2021,out_to_CA_returns,21103.0,returns,n/a,IRS SOI Migration 2020-2021,https://www.irs.gov/pub/irs-soi/stateoutflow2021.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2022,out_to_CA_returns,23316.0,returns,n/a,IRS SOI Migration 2021-2022,https://www.irs.gov/pub/irs-soi/stateoutflow2122.csv,2026-06-03T14:40:29.849543+00:00
+48,Texas,state,2023,out_to_CA_returns,24970.0,returns,n/a,IRS SOI Migration 2022-2023,https://www.irs.gov/pub/irs-soi/stateoutflow2223.csv,2026-06-03T14:40:29.849543+00:00

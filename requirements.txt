@@ -1,0 +1,8 @@
+# Texas vs California analysis — pinned dependencies.
+# Versions are the ones resolved & installed into the project venv on Python 3.14
+# (the only interpreter available on this machine). Regenerate after any change with:
+#   venv\Scripts\python.exe -m pip freeze
+pandas==3.0.3
+requests==2.34.2
+python-dotenv==1.2.2
+PyYAML==6.0.3

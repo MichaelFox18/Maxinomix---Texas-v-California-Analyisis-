@@ -1,0 +1,676 @@
+{
+  "BEAAPI": {
+    "Request": {
+      "RequestParam": [
+        {
+          "ParameterName": "USERID",
+          "ParameterValue": "C51AD538-9ED7-4C18-9A75-0E20212AF218"
+        },
+        {
+          "ParameterName": "METHOD",
+          "ParameterValue": "GETDATA"
+        },
+        {
+          "ParameterName": "DATASETNAME",
+          "ParameterValue": "REGIONAL"
+        },
+        {
+          "ParameterName": "TABLENAME",
+          "ParameterValue": "SAGDP1"
+        },
+        {
+          "ParameterName": "LINECODE",
+          "ParameterValue": "1"
+        },
+        {
+          "ParameterName": "GEOFIPS",
+          "ParameterValue": "06000,48000"
+        },
+        {
+          "ParameterName": "YEAR",
+          "ParameterValue": "ALL"
+        },
+        {
+          "ParameterName": "RESULTFORMAT",
+          "ParameterValue": "JSON"
+        }
+      ]
+    },
+    "Results": {
+      "Statistic": "Real Gross Domestic Product (GDP)",
+      "UnitOfMeasure": "Millions of chained 2017 dollars",
+      "PublicTable": "SAGDP1 State annual gross domestic product (GDP) summary",
+      "UTCProductionTime": "2026-06-02T20:30:20.150",
+      "NoteRef": "1",
+      "Dimensions": [
+        {
+          "Name": "Code",
+          "DataType": "string",
+          "IsValue": "0"
+        },
+        {
+          "Name": "GeoFips",
+          "DataType": "string",
+          "IsValue": "0"
+        },
+        {
+          "Name": "GeoName",
+          "DataType": "string",
+          "IsValue": "0"
+        },
+        {
+          "Name": "TimePeriod",
+          "DataType": "string",
+          "IsValue": "0"
+        },
+        {
+          "Name": "DataValue",
+          "DataType": "numeric",
+          "IsValue": "1"
+        },
+        {
+          "Name": "CL_UNIT",
+          "DataType": "string",
+          "IsValue": "0"
+        },
+        {
+          "Name": "UNIT_MULT",
+          "DataType": "numeric",
+          "IsValue": "0"
+        }
+      ],
+      "Data": [
+        {
+          "Code": "SAGDP1-1",
+          "GeoFips": "06000",
+          "GeoName": "California",
+          "TimePeriod": "1997",
+          "CL_UNIT": "Millions of chained 2017 dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1441226.4",
+          "NoteRef": "1"
+        },
+        {
+          "Code": "SAGDP1-1",
+          "GeoFips": "06000",
+          "GeoName": "California",
+          "TimePeriod": "1998",
+          "CL_UNIT": "Millions of chained 2017 dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1538612.3",
+          "NoteRef": "1"
+        },
+        {
+          "Code": "SAGDP1-1",
+          "GeoFips": "06000",
+          "GeoName": "California",
+          "TimePeriod": "1999",
+          "CL_UNIT": "Millions of chained 2017 dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1655438.5",
+          "NoteRef": "1"
+        },
+        {
+          "Code": "SAGDP1-1",
+          "GeoFips": "06000",
+          "GeoName": "California",
+          "TimePeriod": "2000",
+          "CL_UNIT": "Millions of chained 2017 dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1784320.6",
+          "NoteRef": "1"
+        },
+        {
+          "Code": "SAGDP1-1",
+          "GeoFips": "06000",
+          "GeoName": "California",
+          "TimePeriod": "2001",
+          "CL_UNIT": "Millions of chained 2017 dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1784567.7",
+          "NoteRef": "1"
+        },
+        {
+          "Code": "SAGDP1-1",
+          "GeoFips": "06000",
+          "GeoName": "California",
+          "TimePeriod": "2002",
+          "CL_UNIT": "Millions of chained 2017 dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1821509.5",
+          "NoteRef": "1"
+        },
+        {
+          "Code": "SAGDP1-1",
+          "GeoFips": "06000",
+          "GeoName": "California",
+          "TimePeriod": "2003",
+          "CL_UNIT": "Millions of chained 2017 dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1895287.6",
+          "NoteRef": "1"
+        },
+        {
+          "Code": "SAGDP1-1",
+          "GeoFips": "06000",
+          "GeoName": "California",
+          "TimePeriod": "2004",
+          "CL_UNIT": "Millions of chained 2017 dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1956745.5",
+          "NoteRef": "1"
+        },
+        {
+          "Code": "SAGDP1-1",
+          "GeoFips": "06000",
+          "GeoName": "California",
+          "TimePeriod": "2005",
+          "CL_UNIT": "Millions of chained 2017 dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "2042141.0",
+          "NoteRef": "1"
+        },
+        {
+          "Code": "SAGDP1-1",
+          "GeoFips": "06000",
+          "GeoName": "California",
+          "TimePeriod": "2006",
+          "CL_UNIT": "Millions of chained 2017 dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "2120435.4",
+          "NoteRef": "1"
+        },
+        {
+          "Code": "SAGDP1-1",
+          "GeoFips": "06000",
+          "GeoName": "California",
+          "TimePeriod": "2007",
+          "CL_UNIT": "Millions of chained 2017 dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "2168940.4",
+          "NoteRef": "1"
+        },
+        {
+          "Code": "SAGDP1-1",
+          "GeoFips": "06000",
+          "GeoName": "California",
+          "TimePeriod": "2008",
+          "CL_UNIT": "Millions of chained 2017 dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "2192331.8",
+          "NoteRef": "1"
+        },
+        {
+          "Code": "SAGDP1-1",
+          "GeoFips": "06000",
+          "GeoName": "California",
+          "TimePeriod": "2009",
+          "CL_UNIT": "Millions of chained 2017 dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "2110679.4",
+          "NoteRef": "1"
+        },
+        {
+          "Code": "SAGDP1-1",
+          "GeoFips": "06000",
+          "GeoName": "California",
+          "TimePeriod": "2010",
+          "CL_UNIT": "Millions of chained 2017 dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "2153852.8",
+          "NoteRef": "1"
+        },
+        {
+          "Code": "SAGDP1-1",
+          "GeoFips": "06000",
+          "GeoName": "California",
+          "TimePeriod": "2011",
+          "CL_UNIT": "Millions of chained 2017 dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "2192887.2",
+          "NoteRef": "1"
+        },
+        {
+          "Code": "SAGDP1-1",
+          "GeoFips": "06000",
+          "GeoName": "California",
+          "TimePeriod": "2012",
+          "CL_UNIT": "Millions of chained 2017 dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "2255437.3",
+          "NoteRef": "1"
+        },
+        {
+          "Code": "SAGDP1-1",
+          "GeoFips": "06000",
+          "GeoName": "California",
+          "TimePeriod": "2013",
+          "CL_UNIT": "Millions of chained 2017 dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "2340335.3",
+          "NoteRef": "1"
+        },
+        {
+          "Code": "SAGDP1-1",
+          "GeoFips": "06000",
+          "GeoName": "California",
+          "TimePeriod": "2014",
+          "CL_UNIT": "Millions of chained 2017 dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "2428675.7",
+          "NoteRef": "1"
+        },
+        {
+          "Code": "SAGDP1-1",
+          "GeoFips": "06000",
+          "GeoName": "California",
+          "TimePeriod": "2015",
+          "CL_UNIT": "Millions of chained 2017 dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "2545979.5",
+          "NoteRef": "1"
+        },
+        {
+          "Code": "SAGDP1-1",
+          "GeoFips": "06000",
+          "GeoName": "California",
+          "TimePeriod": "2016",
+          "CL_UNIT": "Millions of chained 2017 dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "2623711.7",
+          "NoteRef": "1"
+        },
+        {
+          "Code": "SAGDP1-1",
+          "GeoFips": "06000",
+          "GeoName": "California",
+          "TimePeriod": "2017",
+          "CL_UNIT": "Millions of chained 2017 dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "2740550.3",
+          "NoteRef": "1"
+        },
+        {
+          "Code": "SAGDP1-1",
+          "GeoFips": "06000",
+          "GeoName": "California",
+          "TimePeriod": "2018",
+          "CL_UNIT": "Millions of chained 2017 dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "2850970.3",
+          "NoteRef": "1"
+        },
+        {
+          "Code": "SAGDP1-1",
+          "GeoFips": "06000",
+          "GeoName": "California",
+          "TimePeriod": "2019",
+          "CL_UNIT": "Millions of chained 2017 dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "2969609.0",
+          "NoteRef": "1"
+        },
+        {
+          "Code": "SAGDP1-1",
+          "GeoFips": "06000",
+          "GeoName": "California",
+          "TimePeriod": "2020",
+          "CL_UNIT": "Millions of chained 2017 dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "2930654.6",
+          "NoteRef": "1"
+        },
+        {
+          "Code": "SAGDP1-1",
+          "GeoFips": "06000",
+          "GeoName": "California",
+          "TimePeriod": "2021",
+          "CL_UNIT": "Millions of chained 2017 dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "3151112.5",
+          "NoteRef": "1"
+        },
+        {
+          "Code": "SAGDP1-1",
+          "GeoFips": "06000",
+          "GeoName": "California",
+          "TimePeriod": "2022",
+          "CL_UNIT": "Millions of chained 2017 dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "3147211.4",
+          "NoteRef": "1"
+        },
+        {
+          "Code": "SAGDP1-1",
+          "GeoFips": "06000",
+          "GeoName": "California",
+          "TimePeriod": "2023",
+          "CL_UNIT": "Millions of chained 2017 dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "3204016.4",
+          "NoteRef": "1"
+        },
+        {
+          "Code": "SAGDP1-1",
+          "GeoFips": "06000",
+          "GeoName": "California",
+          "TimePeriod": "2024",
+          "CL_UNIT": "Millions of chained 2017 dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "3306928.6",
+          "NoteRef": "1"
+        },
+        {
+          "Code": "SAGDP1-1",
+          "GeoFips": "06000",
+          "GeoName": "California",
+          "TimePeriod": "2025",
+          "CL_UNIT": "Millions of chained 2017 dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "3388904.8",
+          "NoteRef": "1"
+        },
+        {
+          "Code": "SAGDP1-1",
+          "GeoFips": "48000",
+          "GeoName": "Texas",
+          "TimePeriod": "1997",
+          "CL_UNIT": "Millions of chained 2017 dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "860046.9",
+          "NoteRef": "1"
+        },
+        {
+          "Code": "SAGDP1-1",
+          "GeoFips": "48000",
+          "GeoName": "Texas",
+          "TimePeriod": "1998",
+          "CL_UNIT": "Millions of chained 2017 dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "920059.6",
+          "NoteRef": "1"
+        },
+        {
+          "Code": "SAGDP1-1",
+          "GeoFips": "48000",
+          "GeoName": "Texas",
+          "TimePeriod": "1999",
+          "CL_UNIT": "Millions of chained 2017 dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "957247.2",
+          "NoteRef": "1"
+        },
+        {
+          "Code": "SAGDP1-1",
+          "GeoFips": "48000",
+          "GeoName": "Texas",
+          "TimePeriod": "2000",
+          "CL_UNIT": "Millions of chained 2017 dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "989904.9",
+          "NoteRef": "1"
+        },
+        {
+          "Code": "SAGDP1-1",
+          "GeoFips": "48000",
+          "GeoName": "Texas",
+          "TimePeriod": "2001",
+          "CL_UNIT": "Millions of chained 2017 dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1020517.0",
+          "NoteRef": "1"
+        },
+        {
+          "Code": "SAGDP1-1",
+          "GeoFips": "48000",
+          "GeoName": "Texas",
+          "TimePeriod": "2002",
+          "CL_UNIT": "Millions of chained 2017 dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1042584.4",
+          "NoteRef": "1"
+        },
+        {
+          "Code": "SAGDP1-1",
+          "GeoFips": "48000",
+          "GeoName": "Texas",
+          "TimePeriod": "2003",
+          "CL_UNIT": "Millions of chained 2017 dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1052132.3",
+          "NoteRef": "1"
+        },
+        {
+          "Code": "SAGDP1-1",
+          "GeoFips": "48000",
+          "GeoName": "Texas",
+          "TimePeriod": "2004",
+          "CL_UNIT": "Millions of chained 2017 dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1111189.1",
+          "NoteRef": "1"
+        },
+        {
+          "Code": "SAGDP1-1",
+          "GeoFips": "48000",
+          "GeoName": "Texas",
+          "TimePeriod": "2005",
+          "CL_UNIT": "Millions of chained 2017 dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1143413.1",
+          "NoteRef": "1"
+        },
+        {
+          "Code": "SAGDP1-1",
+          "GeoFips": "48000",
+          "GeoName": "Texas",
+          "TimePeriod": "2006",
+          "CL_UNIT": "Millions of chained 2017 dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1225147.3",
+          "NoteRef": "1"
+        },
+        {
+          "Code": "SAGDP1-1",
+          "GeoFips": "48000",
+          "GeoName": "Texas",
+          "TimePeriod": "2007",
+          "CL_UNIT": "Millions of chained 2017 dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1288828.7",
+          "NoteRef": "1"
+        },
+        {
+          "Code": "SAGDP1-1",
+          "GeoFips": "48000",
+          "GeoName": "Texas",
+          "TimePeriod": "2008",
+          "CL_UNIT": "Millions of chained 2017 dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1287191.5",
+          "NoteRef": "1"
+        },
+        {
+          "Code": "SAGDP1-1",
+          "GeoFips": "48000",
+          "GeoName": "Texas",
+          "TimePeriod": "2009",
+          "CL_UNIT": "Millions of chained 2017 dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1285560.2",
+          "NoteRef": "1"
+        },
+        {
+          "Code": "SAGDP1-1",
+          "GeoFips": "48000",
+          "GeoName": "Texas",
+          "TimePeriod": "2010",
+          "CL_UNIT": "Millions of chained 2017 dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1323059.1",
+          "NoteRef": "1"
+        },
+        {
+          "Code": "SAGDP1-1",
+          "GeoFips": "48000",
+          "GeoName": "Texas",
+          "TimePeriod": "2011",
+          "CL_UNIT": "Millions of chained 2017 dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1370174.9",
+          "NoteRef": "1"
+        },
+        {
+          "Code": "SAGDP1-1",
+          "GeoFips": "48000",
+          "GeoName": "Texas",
+          "TimePeriod": "2012",
+          "CL_UNIT": "Millions of chained 2017 dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1438354.4",
+          "NoteRef": "1"
+        },
+        {
+          "Code": "SAGDP1-1",
+          "GeoFips": "48000",
+          "GeoName": "Texas",
+          "TimePeriod": "2013",
+          "CL_UNIT": "Millions of chained 2017 dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1511806.5",
+          "NoteRef": "1"
+        },
+        {
+          "Code": "SAGDP1-1",
+          "GeoFips": "48000",
+          "GeoName": "Texas",
+          "TimePeriod": "2014",
+          "CL_UNIT": "Millions of chained 2017 dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1559636.1",
+          "NoteRef": "1"
+        },
+        {
+          "Code": "SAGDP1-1",
+          "GeoFips": "48000",
+          "GeoName": "Texas",
+          "TimePeriod": "2015",
+          "CL_UNIT": "Millions of chained 2017 dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1634127.1",
+          "NoteRef": "1"
+        },
+        {
+          "Code": "SAGDP1-1",
+          "GeoFips": "48000",
+          "GeoName": "Texas",
+          "TimePeriod": "2016",
+          "CL_UNIT": "Millions of chained 2017 dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1633863.3",
+          "NoteRef": "1"
+        },
+        {
+          "Code": "SAGDP1-1",
+          "GeoFips": "48000",
+          "GeoName": "Texas",
+          "TimePeriod": "2017",
+          "CL_UNIT": "Millions of chained 2017 dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1667313.0",
+          "NoteRef": "1"
+        },
+        {
+          "Code": "SAGDP1-1",
+          "GeoFips": "48000",
+          "GeoName": "Texas",
+          "TimePeriod": "2018",
+          "CL_UNIT": "Millions of chained 2017 dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1746543.3",
+          "NoteRef": "1"
+        },
+        {
+          "Code": "SAGDP1-1",
+          "GeoFips": "48000",
+          "GeoName": "Texas",
+          "TimePeriod": "2019",
+          "CL_UNIT": "Millions of chained 2017 dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1806736.1",
+          "NoteRef": "1"
+        },
+        {
+          "Code": "SAGDP1-1",
+          "GeoFips": "48000",
+          "GeoName": "Texas",
+          "TimePeriod": "2020",
+          "CL_UNIT": "Millions of chained 2017 dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1782738.2",
+          "NoteRef": "1"
+        },
+        {
+          "Code": "SAGDP1-1",
+          "GeoFips": "48000",
+          "GeoName": "Texas",
+          "TimePeriod": "2021",
+          "CL_UNIT": "Millions of chained 2017 dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1905512.4",
+          "NoteRef": "1"
+        },
+        {
+          "Code": "SAGDP1-1",
+          "GeoFips": "48000",
+          "GeoName": "Texas",
+          "TimePeriod": "2022",
+          "CL_UNIT": "Millions of chained 2017 dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1975164.0",
+          "NoteRef": "1"
+        },
+        {
+          "Code": "SAGDP1-1",
+          "GeoFips": "48000",
+          "GeoName": "Texas",
+          "TimePeriod": "2023",
+          "CL_UNIT": "Millions of chained 2017 dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "2137536.7",
+          "NoteRef": "1"
+        },
+        {
+          "Code": "SAGDP1-1",
+          "GeoFips": "48000",
+          "GeoName": "Texas",
+          "TimePeriod": "2024",
+          "CL_UNIT": "Millions of chained 2017 dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "2221943.3",
+          "NoteRef": "1"
+        },
+        {
+          "Code": "SAGDP1-1",
+          "GeoFips": "48000",
+          "GeoName": "Texas",
+          "TimePeriod": "2025",
+          "CL_UNIT": "Millions of chained 2017 dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "2277203.3",
+          "NoteRef": "1"
+        }
+      ],
+      "Notes": [
+        {
+          "NoteRef": "1",
+          "NoteText": "Real GDP is in millions of chained 2017 dollars. Calculations are performed on unrounded data. Chained (2017) dollar series are calculated as the product of the chain-type quantity index and the 2017 current-dollar value of the corresponding series, divided by 100. Because the formula for the chain-type quantity indexes uses weights of more than one period, the corresponding chained-dollar estimates are usually not additive. The difference between the United States and sum-of-states reflects federal military and civilian activity located overseas, as well as the differences in source data used to estimate GDP by industry and the expenditures measure of real GDP."
+        },
+        {
+          "NoteRef": " ",
+          "NoteText": "Last updated: April 9, 2026-- new statistics for 2025."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,10 @@
+cik,company,from_state,to_state_expected,move_announced_year,edgar_entity_name,edgar_business_state,edgar_business_city,edgar_state_of_incorporation,latest_filing_date,verified_in_to_state,source,source_url,retrieved_at
+0001321655,Palantir Technologies,CA,CO,2020,Palantir Technologies Inc.,FL,AVENTURA,,2026-06-02,False,SEC EDGAR submissions API,https://data.sec.gov/submissions/CIK0001321655.json,2026-06-03T14:58:52.242232+00:00
+0000868857,AECOM,CA,TX,2021,AECOM,TX,DALLAS,DE,2026-06-03,True,SEC EDGAR submissions API,https://data.sec.gov/submissions/CIK0000868857.json,2026-06-03T14:58:52.242232+00:00
+0001138118,CBRE Group,CA,TX,2020,"CBRE GROUP, INC.",TX,DALLAS,DE,2026-05-29,True,SEC EDGAR submissions API,https://data.sec.gov/submissions/CIK0001138118.json,2026-06-03T14:58:52.242232+00:00
+0000316709,Charles Schwab,CA,TX,2021,SCHWAB CHARLES CORP,TX,WESTLAKE,DE,2026-06-01,True,SEC EDGAR submissions API,https://data.sec.gov/submissions/CIK0000316709.json,2026-06-03T14:58:52.242232+00:00
+0000093410,Chevron,CA,TX,2024,CHEVRON CORP,TX,HOUSTON,DE,2026-05-29,True,SEC EDGAR submissions API,https://data.sec.gov/submissions/CIK0000093410.json,2026-06-03T14:58:52.242232+00:00
+0001645590,Hewlett Packard Enterprise,CA,TX,2020,Hewlett Packard Enterprise Co,TX,SPRING,DE,2026-06-02,True,SEC EDGAR submissions API,https://data.sec.gov/submissions/CIK0001645590.json,2026-06-03T14:58:52.242232+00:00
+0000927653,McKesson,CA,TX,2019,MCKESSON CORP,TX,IRVING,DE,2026-06-02,True,SEC EDGAR submissions API,https://data.sec.gov/submissions/CIK0000927653.json,2026-06-03T14:58:52.242232+00:00
+0001341439,Oracle,CA,TX,2020,ORACLE CORP,TX,AUSTIN,,2026-06-02,True,SEC EDGAR submissions API,https://data.sec.gov/submissions/CIK0001341439.json,2026-06-03T14:58:52.242232+00:00
+0001318605,Tesla,CA,TX,2021,"Tesla, Inc.",TX,AUSTIN,TX,2026-05-29,True,SEC EDGAR submissions API,https://data.sec.gov/submissions/CIK0001318605.json,2026-06-03T14:58:52.242232+00:00

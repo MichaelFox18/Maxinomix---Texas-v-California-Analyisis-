@@ -1,0 +1,614 @@
+{
+  "BEAAPI": {
+    "Request": {
+      "RequestParam": [
+        {
+          "ParameterName": "USERID",
+          "ParameterValue": "C51AD538-9ED7-4C18-9A75-0E20212AF218"
+        },
+        {
+          "ParameterName": "METHOD",
+          "ParameterValue": "GETDATA"
+        },
+        {
+          "ParameterName": "DATASETNAME",
+          "ParameterValue": "REGIONAL"
+        },
+        {
+          "ParameterName": "TABLENAME",
+          "ParameterValue": "SAGDP1"
+        },
+        {
+          "ParameterName": "LINECODE",
+          "ParameterValue": "3"
+        },
+        {
+          "ParameterName": "GEOFIPS",
+          "ParameterValue": "06000,48000"
+        },
+        {
+          "ParameterName": "YEAR",
+          "ParameterValue": "ALL"
+        },
+        {
+          "ParameterName": "RESULTFORMAT",
+          "ParameterValue": "JSON"
+        }
+      ]
+    },
+    "Results": {
+      "Statistic": "Current-dollar Gross Domestic Product (GDP)",
+      "UnitOfMeasure": "Millions of current dollars",
+      "PublicTable": "SAGDP1 State annual gross domestic product (GDP) summary",
+      "UTCProductionTime": "2026-06-02T20:30:20.713",
+      "NoteRef": " ",
+      "Dimensions": [
+        {
+          "Name": "Code",
+          "DataType": "string",
+          "IsValue": "0"
+        },
+        {
+          "Name": "GeoFips",
+          "DataType": "string",
+          "IsValue": "0"
+        },
+        {
+          "Name": "GeoName",
+          "DataType": "string",
+          "IsValue": "0"
+        },
+        {
+          "Name": "TimePeriod",
+          "DataType": "string",
+          "IsValue": "0"
+        },
+        {
+          "Name": "DataValue",
+          "DataType": "numeric",
+          "IsValue": "1"
+        },
+        {
+          "Name": "CL_UNIT",
+          "DataType": "string",
+          "IsValue": "0"
+        },
+        {
+          "Name": "UNIT_MULT",
+          "DataType": "numeric",
+          "IsValue": "0"
+        }
+      ],
+      "Data": [
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "06000",
+          "GeoName": "California",
+          "TimePeriod": "1997",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1068048.6"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "06000",
+          "GeoName": "California",
+          "TimePeriod": "1998",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1143672.5"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "06000",
+          "GeoName": "California",
+          "TimePeriod": "1999",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1239773.5"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "06000",
+          "GeoName": "California",
+          "TimePeriod": "2000",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1354791.3"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "06000",
+          "GeoName": "California",
+          "TimePeriod": "2001",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1373270.8"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "06000",
+          "GeoName": "California",
+          "TimePeriod": "2002",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1419321.8"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "06000",
+          "GeoName": "California",
+          "TimePeriod": "2003",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1498578.0"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "06000",
+          "GeoName": "California",
+          "TimePeriod": "2004",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1585081.4"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "06000",
+          "GeoName": "California",
+          "TimePeriod": "2005",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1698858.4"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "06000",
+          "GeoName": "California",
+          "TimePeriod": "2006",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1812161.6"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "06000",
+          "GeoName": "California",
+          "TimePeriod": "2007",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1900220.4"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "06000",
+          "GeoName": "California",
+          "TimePeriod": "2008",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1946241.5"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "06000",
+          "GeoName": "California",
+          "TimePeriod": "2009",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1879809.5"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "06000",
+          "GeoName": "California",
+          "TimePeriod": "2010",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1938603.3"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "06000",
+          "GeoName": "California",
+          "TimePeriod": "2011",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "2014050.3"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "06000",
+          "GeoName": "California",
+          "TimePeriod": "2012",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "2108873.1"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "06000",
+          "GeoName": "California",
+          "TimePeriod": "2013",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "2223300.9"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "06000",
+          "GeoName": "California",
+          "TimePeriod": "2014",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "2342218.8"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "06000",
+          "GeoName": "California",
+          "TimePeriod": "2015",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "2487156.4"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "06000",
+          "GeoName": "California",
+          "TimePeriod": "2016",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "2586485.2"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "06000",
+          "GeoName": "California",
+          "TimePeriod": "2017",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "2740550.3"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "06000",
+          "GeoName": "California",
+          "TimePeriod": "2018",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "2899530.9"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "06000",
+          "GeoName": "California",
+          "TimePeriod": "2019",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "3068629.7"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "06000",
+          "GeoName": "California",
+          "TimePeriod": "2020",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "3072927.6"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "06000",
+          "GeoName": "California",
+          "TimePeriod": "2021",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "3418256.1"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "06000",
+          "GeoName": "California",
+          "TimePeriod": "2022",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "3618289.7"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "06000",
+          "GeoName": "California",
+          "TimePeriod": "2023",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "3827007.3"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "06000",
+          "GeoName": "California",
+          "TimePeriod": "2024",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "4048108.1"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "06000",
+          "GeoName": "California",
+          "TimePeriod": "2025",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "4250840.8"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "48000",
+          "GeoName": "Texas",
+          "TimePeriod": "1997",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "610659.8"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "48000",
+          "GeoName": "Texas",
+          "TimePeriod": "1998",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "648243.1"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "48000",
+          "GeoName": "Texas",
+          "TimePeriod": "1999",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "683347.4"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "48000",
+          "GeoName": "Texas",
+          "TimePeriod": "2000",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "742161.5"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "48000",
+          "GeoName": "Texas",
+          "TimePeriod": "2001",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "780206.2"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "48000",
+          "GeoName": "Texas",
+          "TimePeriod": "2002",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "796357.3"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "48000",
+          "GeoName": "Texas",
+          "TimePeriod": "2003",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "840860.8"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "48000",
+          "GeoName": "Texas",
+          "TimePeriod": "2004",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "921230.7"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "48000",
+          "GeoName": "Texas",
+          "TimePeriod": "2005",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1003745.9"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "48000",
+          "GeoName": "Texas",
+          "TimePeriod": "2006",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1108236.5"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "48000",
+          "GeoName": "Texas",
+          "TimePeriod": "2007",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1198565.0"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "48000",
+          "GeoName": "Texas",
+          "TimePeriod": "2008",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1253142.0"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "48000",
+          "GeoName": "Texas",
+          "TimePeriod": "2009",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1179168.1"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "48000",
+          "GeoName": "Texas",
+          "TimePeriod": "2010",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1255660.8"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "48000",
+          "GeoName": "Texas",
+          "TimePeriod": "2011",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1351776.9"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "48000",
+          "GeoName": "Texas",
+          "TimePeriod": "2012",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1429588.0"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "48000",
+          "GeoName": "Texas",
+          "TimePeriod": "2013",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1526781.9"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "48000",
+          "GeoName": "Texas",
+          "TimePeriod": "2014",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1592177.6"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "48000",
+          "GeoName": "Texas",
+          "TimePeriod": "2015",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1585985.9"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "48000",
+          "GeoName": "Texas",
+          "TimePeriod": "2016",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1582981.5"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "48000",
+          "GeoName": "Texas",
+          "TimePeriod": "2017",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1667313.0"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "48000",
+          "GeoName": "Texas",
+          "TimePeriod": "2018",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1808026.9"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "48000",
+          "GeoName": "Texas",
+          "TimePeriod": "2019",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1864872.3"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "48000",
+          "GeoName": "Texas",
+          "TimePeriod": "2020",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "1810670.2"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "48000",
+          "GeoName": "Texas",
+          "TimePeriod": "2021",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "2117013.7"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "48000",
+          "GeoName": "Texas",
+          "TimePeriod": "2022",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "2476903.2"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "48000",
+          "GeoName": "Texas",
+          "TimePeriod": "2023",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "2637237.6"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "48000",
+          "GeoName": "Texas",
+          "TimePeriod": "2024",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "2769766.2"
+        },
+        {
+          "Code": "SAGDP1-3",
+          "GeoFips": "48000",
+          "GeoName": "Texas",
+          "TimePeriod": "2025",
+          "CL_UNIT": "Millions of current dollars",
+          "UNIT_MULT": "6",
+          "DataValue": "2904427.8"
+        }
+      ],
+      "Notes": [
+        {
+          "NoteRef": " ",
+          "NoteText": "Last updated: April 9, 2026-- new statistics for 2025."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,29 @@
+# --- Secrets: never commit ---
+.env
+.env.*
+!.env.example
+
+# --- Python ---
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# --- OS / editor cruft ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- NOTE on data ---
+# data/ is intentionally NOT ignored. Per CLAUDE.md, raw and processed data
+# are committed for portability (the data is small and public). Use Git LFS
+# for any single file > ~50 MB (trim national IRS/Zillow files to TX/CA first).
