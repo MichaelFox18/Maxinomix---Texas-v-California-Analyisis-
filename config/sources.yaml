@@ -96,6 +96,17 @@ sources:
         births:                  { stems: ["BIRTHS"],          unit: persons/year,  measure: flow }
         deaths:                  { stems: ["DEATHS"],          unit: persons/year,  measure: flow }
         natural_change:          { stems: ["NATURALINC", "NATURALCHG"], unit: persons/year, measure: flow }
+    acs:
+      # ACS 1-year: housing cost + property-tax reality (counter-case to "no income tax").
+      # 2020 ACS1 was not released (COVID); the year list skips it.
+      docs_url: https://www.census.gov/data/developers/data-sets/acs-1year.html
+      dataset: acs/acs1
+      geo_fips: ["06", "48"]
+      years: [2015, 2016, 2017, 2018, 2019, 2021, 2022, 2023, 2024]
+      variables:    # metric_name: ACS variable code
+        median_home_value: B25077_001E
+        median_real_estate_taxes: B25103_001E
+        median_household_income: B19013_001E
 
   irs_soi:
     name: IRS SOI Migration
@@ -186,6 +197,20 @@ sources:
     name: Zillow Research
     access: csv_download
     api_key_env: null
-    attribution_required: true   # if repo is public, keep Zillow attribution + mind terms
+    attribution_required: true   # public repo: keep attribution + mind Zillow terms
+    attribution: "Data source: Zillow Research (ZHVI). Used with attribution per Zillow's terms of use."
     gives: "Home values (ZHVI), rents (ZORI)"
-    status: stub
+    status: built
+    zhvi_metro_url: https://files.zillowstatic.com/research/public_csvs/zhvi/Metro_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_month.csv
+    start_year: 2015
+    metric: zhvi   # Zillow Home Value Index (typical home value, smoothed/seasonally adj.), nominal $
+    # geo_id = federal CBSA code (not Zillow's RegionID), per the GEOID rule.
+    metros:
+      - { region_id: 394355, cbsa: "12420", name: "Austin, TX",            state: TX }
+      - { region_id: 394514, cbsa: "19100", name: "Dallas-Fort Worth, TX", state: TX }
+      - { region_id: 394692, cbsa: "26420", name: "Houston, TX",           state: TX }
+      - { region_id: 395055, cbsa: "41700", name: "San Antonio, TX",       state: TX }
+      - { region_id: 395057, cbsa: "41860", name: "San Francisco, CA",     state: CA }
+      - { region_id: 395059, cbsa: "41940", name: "San Jose, CA",          state: CA }
+      - { region_id: 753899, cbsa: "31080", name: "Los Angeles, CA",       state: CA }
+      - { region_id: 395056, cbsa: "41740", name: "San Diego, CA",         state: CA }
